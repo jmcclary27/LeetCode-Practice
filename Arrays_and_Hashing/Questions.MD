@@ -27,3 +27,12 @@ Given an array of strings strs, group all anagrams together into sublists. You m
 An anagram is a string that contains the exact same characters as another string, but the order of the characters can be different.
 
 Idea: Create an empty dictionary to start out with, and then loop through the strings in the list. Create a count array for each string, and then increment through the letters of each string, updating the values at the letters corresponding index. Use ord() to get the index of each letter. ord() gets the ASCII values of characters, so if you subtract the characters by the ASCII value of a, we will be given a value between 0 and 25 which we then use for indexing. After we loop through the string, we convert its count array to a tuple, and add it to our dictionary, with its value being the word. Since we use append to add the value, if there is another word with a matching count array, it will get added to the same key. We then return the values of our dictionary converted to a list, so we now have a list of lists, grouped by which strings are anagrams. This time complexity is O(m * n) (m being the number of strings and n being the length of the longest string), and the space complexity is O(m * n) (output) with O(m) extra space (count arrays).
+
+## Top K Frequent Elements (Medium)
+
+Given an integer array nums and an integer k, return the k most frequent elements within the array.
+The test cases are generated such that the answer is always unique.
+You may return the output in any order.
+
+Idea: In this solution, we use bucket sort in kind of an untraditional way. We will create a 2D array, where the indices represent the frequency, and the elements at that index are the numbers that occur that many times. We will do this by creating a dictionary, and then looping through nums, adding the numbers and updating their frequency to the dictionary along the way. We will then loop through the dictionary, putting them into their proper bucket. In this 2D array, the elements at the end will have occurred the most times, so to get the top k elements, we loop through the 2D arrray, starting at the end, and output the last k elements. By using bucket sort instead of a more traditional way, like a min heap, we will have shaved our runtime complexity down from O(nlogn) to big O(n), and our space complexity from 
+O(n + k) to O(n)
