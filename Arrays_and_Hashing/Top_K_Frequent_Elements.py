@@ -8,7 +8,7 @@ class Solution:
         
         # Loops through the numbers and fills the count dictionary and the freq list
         for num in nums:
-            count[num] = 1 + count.get(nums, 0)
+            count[num] = 1 + count.get(num, 0)
         for num, cnt in count.items():
             freq[cnt].append(num)
         
