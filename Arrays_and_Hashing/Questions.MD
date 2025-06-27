@@ -1,4 +1,4 @@
-# Descriptions and any additional notes for every questions written below
+# Descriptions and any additional notes for every question written below
 
 ## Contains Duplicate (Easy)
 
