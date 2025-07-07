@@ -50,3 +50,14 @@ Each product is guaranteed to fit in a 32-bit integer.
 Follow-up: Could you solve it in O(n) time without using the division operation?
 
 Idea: Initially, the easiest way to solve this in O(n) time would be to multiply all the numbers together, and then divide that number by the number at each index. This question is trying to challenge us by seeing if we can come up with another way to do it. We are supposed to use a trick called a prefix and postfix product. Essentially, the idea is to have an array of the products for every number before the current index, and an array of the products for every number after the position, and then multiply the two arrays together. I took this one step further, by doing this entire process in our final output array so that the extra space created by making two arrays is saved. I stored all the prefix products into the results array, and then I created a variable to store the current suffix products, and looped through the array backwards, multiplyinh by that suffix product number. Overall, this strategy is still O(n) for runtime and space complexity, but it is a little more optimized than the NeetCode answer.
+
+## Valid Sudoku (Medium)
+
+You are given a 9 x 9 Sudoku board board. A Sudoku board is valid if the following rules are followed:
+Each row must contain the digits 1-9 without duplicates.
+Each column must contain the digits 1-9 without duplicates.
+Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without duplicates.
+Return true if the Sudoku board is valid, otherwise return false
+Note: A board does not need to be full or be solvable to be valid.
+
+Idea: The idea is to create three arrays, one for storing rows, one for columns, and one for the sqaures. We do this by looping through each element (row major) and adding the element to the row and column list by its row and column index. For the sqaures, we divide its row and column indexes (truncated) to find what square it is in. This solution is O(n^2) for both time and space complexity.
