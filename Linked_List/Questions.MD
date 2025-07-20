@@ -22,3 +22,16 @@ Internally, index determines the index of the beginning of the cycle, if it exis
 Note: index is not given to you as a parameter.
 
 Idea: Initially, I thought to just create a hash set of everything that has been seen, by our pointer, and if we come across a pointer already in seen, then return True, but I felt that there was a way to solve this problem with a constant space complexity. After futher thought, I realized I could use a fast and slow pointer to detect a cycle. Using this solution there are two outcomes: A) The fast pointer reaches null, meaning there is no cycle, or B) the fast and slow pointer meet again, meaning there is a a cycle. This algorithm has been proven to be O(n) for runtime complexity, and it still maintains that O(1) space complexity I talked about earlier
+
+## Reorder Linked List (Medium)
+
+You are given the head of a singly linked-list.
+The positions of a linked list of length = 7 for example, can intially be represented as:
+[0, 1, 2, 3, 4, 5, 6]
+Reorder the nodes of the linked list to be in the following order:
+[0, 6, 1, 5, 2, 4, 3]
+Notice that in the general case for a list of length = n the nodes are reordered to be in the following order: 
+[0, n-1, 1, n-2, 2, n-3, ...]
+You may not modify the values in the list's nodes, but instead you must reorder the nodes themselves.
+
+Idea: The idea here is to reverse the second half of the list, so we can then move through the first and second half, connecting them one by one. We first find the halfway point using fast and slow pointers. We then loop from the slow pointer to the end, reversing that half of the linked list. We then connect the first half to the second half by alternating back and forth. This strategy is O(n) runtime and O(1) space.
