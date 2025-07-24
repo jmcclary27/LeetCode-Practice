@@ -61,3 +61,11 @@ Return true if the Sudoku board is valid, otherwise return false
 Note: A board does not need to be full or be solvable to be valid.
 
 Idea: The idea is to create three arrays, one for storing rows, one for columns, and one for the sqaures. We do this by looping through each element (row major) and adding the element to the row and column list by its row and column index. For the sqaures, we divide its row and column indexes (truncated) to find what square it is in. This solution is O(n^2) for both time and space complexity.
+
+## Longest Consecutive Sequence (Medium)
+
+Given an array of integers nums, return the length of the longest consecutive sequence of elements that can be formed.
+A consecutive sequence is a sequence of elements in which each element is exactly 1 greater than the previous element. The elements do not have to be consecutive in the original array.
+You must write an algorithm that runs in O(n) time.
+
+Idea: The idea is to create a set with all the numbers in nums as the keys so that we can loop through each number without having any duplicates. We then check if num - 1 exists, which checks if num is the start of a sequence, and if it doesn't exist, then we know we have found a start. If num - 1 doesn't exist, we create a variable called length with a value of one, and loop until num + length doesn't exist in our set, all while incrementing length with each iteration. Once we have found the end of the sequence, we compare that length to our previous longest length, and store whichever length is bigger in our longest length variable. Since every number is seen at most twice, it is O(n) runtime with O(n) space due to our creation of the hashset. 
