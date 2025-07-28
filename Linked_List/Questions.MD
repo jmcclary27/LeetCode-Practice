@@ -35,3 +35,10 @@ Notice that in the general case for a list of length = n the nodes are reordered
 You may not modify the values in the list's nodes, but instead you must reorder the nodes themselves.
 
 Idea: The idea here is to reverse the second half of the list, so we can then move through the first and second half, connecting them one by one. We first find the halfway point using fast and slow pointers. We then loop from the slow pointer to the end, reversing that half of the linked list. We then connect the first half to the second half by alternating back and forth. This strategy is O(n) runtime and O(1) space.
+
+# Remove Nth Node From End of List (Medium)
+
+You are given the beginning of a linked list head, and an integer n.
+Remove the nth node from the end of the list and return the beginning of the list.
+
+Idea: The idea here is to create two pointers, one at the head of the list, and one pointing to the head of the list (one behind the first one). We then increment the one at the head n times, so that it is n + 1 spaces ahead of the left one. We then increment both pointers until the right one is at a None value. When right is at None, the left pointer should be one behind our target pointer, which is the pointer n spaces from the back. We then make the left pointers next point to next next, effectively removing the node. We then return the head of the list for a O(n) runtime complexity and a O(1) space complexity.

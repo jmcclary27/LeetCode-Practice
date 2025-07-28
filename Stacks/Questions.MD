@@ -32,3 +32,10 @@ The operators include '+', '-', '*', and '/'.
 Assume that division between integers always truncates toward zero.
 
 Idea: Polish notation is a very weird concept, but once you understand how it works, it becomes clear why a stack is most optimal for this question. The stack allows us to traverse the token list while performing mathematical operations along the way and maintaining the other tokens we have crossed. What we do is loop through the list of tokens and check for one of the four symbols. If we come across one, we pop the last two tokens in the list and perform that mathematical operation. If it is not one of the symbols, we push it to the stack as an integer. This is done in O(n) time and space complexity.
+
+## Daily Temperatures (Medium)
+
+You are given an array of integers temperatures where temperatures[i] represents the daily temperatures on the ith day.
+Return an array result where result[i] is the number of days after the ith day before a warmer temperature appears on a future day. If there is no day in the future where a warmer temperature will appear for the ith day, set result[i] to 0 instead.
+
+Idea: The idea here is to create a stack holding both the temperatures and their index. If we find a temperature greater than our most recent addition to the stack, we loop until there is nothing else in the stack less than this temperature, and we add the difference between the current index and their index to the resulting array. We then add our most recent variables to the stack. This is a O(n) runtime complexity with a O(n) space complexity
