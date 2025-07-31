@@ -33,6 +33,12 @@ Assume that division between integers always truncates toward zero.
 
 Idea: Polish notation is a very weird concept, but once you understand how it works, it becomes clear why a stack is most optimal for this question. The stack allows us to traverse the token list while performing mathematical operations along the way and maintaining the other tokens we have crossed. What we do is loop through the list of tokens and check for one of the four symbols. If we come across one, we pop the last two tokens in the list and perform that mathematical operation. If it is not one of the symbols, we push it to the stack as an integer. This is done in O(n) time and space complexity.
 
+## Generate Parentheses (Medium)
+
+You are given an integer n. Return all well-formed parentheses strings that you can generate with n pairs of parentheses.
+
+Idea: The idea here is to use recrusive backtracking to find all possible combinations of the parentheses. We do this by defining our result list and our stack, before defining a nested function for the backtracking. The function will keep track of how many open and closed parenthesis we have. If we have n open and n closed parenthesis we add the stack to res and return. If we have less than n open parentheses, we add one to the stack and recall backtracking, this time with one more open parentheses. We do the same process for the closed parenthesis. After the calls, we pop the stack, which is where our backtracking process comes into play. In total, this idea is O((4^n)/root(n)) time complexity with O(n) space complexity
+
 ## Daily Temperatures (Medium)
 
 You are given an array of integers temperatures where temperatures[i] represents the daily temperatures on the ith day.
