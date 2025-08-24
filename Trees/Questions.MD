@@ -54,3 +54,16 @@ Idea: The idea here is very simple. Since we know our tree is a binary search tr
 Given a binary tree root, return the level order traversal of it as a nested list, where each sublist contains the values of nodes at a particular level in the tree, from left to right.
 
 Idea: The idea here is to implement an iterative BFS algorithm, but since we need to keep track of levels, we will use a queue of queues, with the inner queues being separated by their levels. Each time we reach a node, we append its value to our resulting list, and we enqueue its children to the second queue (the last queue) of our outer queue. When the queue we are on is empty, we remove it from the outer queue and add another to both our queue and list. When both the queue we are on and the following queue are empty, we have reached the end of the tree, so we can return our results. This runs in O(n) for both runtime and space complexity.
+
+## Binary Tree Right Side View (Medium)
+
+You are given the root of a binary tree. Return only the values of the nodes that are visible from the right side of the tree, ordered from top to bottom.
+
+Idea: The idea here is to use breadth first search and treat it like a level order traversal. So in my BFS algorithm, I kept track of the tree levels using a queue and queues, and whenever I reached the end of an inner queue, I would push the value of the last node for each level to my results array. This ran in O(n) runtime and space complexity.
+
+## Count Good Nodes In Binary Tree (Medium)
+
+Within a binary tree, a node x is considered good if the path from the root of the tree to the node x contains no nodes with a value greater than the value of node x
+Given the root of a binary tree root, return the number of good nodes within the tree.
+
+Idea: The idea is to create a recursive depth first search algorithm that keeps track of the current greatest value seen on that path. If the current value is higher than the greatest value, then we return 1 + the total from the left and right side, if not, then it's just the total from the two sides. This runs in O(n) for both runtime and space complexity.

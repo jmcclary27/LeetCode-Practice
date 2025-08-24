@@ -45,3 +45,17 @@ You are given an array of integers temperatures where temperatures[i] represents
 Return an array result where result[i] is the number of days after the ith day before a warmer temperature appears on a future day. If there is no day in the future where a warmer temperature will appear for the ith day, set result[i] to 0 instead.
 
 Idea: The idea here is to create a stack holding both the temperatures and their index. If we find a temperature greater than our most recent addition to the stack, we loop until there is nothing else in the stack less than this temperature, and we add the difference between the current index and their index to the resulting array. We then add our most recent variables to the stack. This is a O(n) runtime complexity with a O(n) space complexity
+
+## Car Fleet (Medium)
+
+There are n cars traveling to the same destination on a one-lane highway.
+You are given two arrays of integers position and speed, both of length n.
+position[i] is the position of the ith car (in miles)
+speed[i] is the speed of the ith car (in miles per hour)
+The destination is at position target miles.
+A car can not pass another car ahead of it. It can only catch up to another car and then drive at the same speed as the car ahead of it.
+A car fleet is a non-empty set of cars driving at the same position and same speed. A single car is also considered a car fleet.
+If a car catches up to a car fleet the moment the fleet reaches the destination, then the car is considered to be part of the fleet.
+Return the number of different car fleets that will arrive at the destination.
+
+Idea: The idea here is to sort the position array and to loop through it backwards (or sort the array in decreasing order). In the loop, we calculate the time it will take for the ith car to reach target, and if it is less than or equal to the top of the stack, then we know that car will be apart of the fleet, so we change its time to the time of the top of the stack, and make it the new top. If the time is greater than the top of the stack. We empty the stack, then add the new time to the stack, and increment our result by one. This solution is O(nlogn) for time complexity (because of sorting) and O(n) for space complexity.
