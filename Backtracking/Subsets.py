@@ -1,20 +1,21 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
-        # Defines nested backtracking function with the parameters being the starting index and current stack
-        def backtrack(start, stack):
-            # Append current stack to res (Uses list manipulation to make a shallow copy)
-            res.append(stack[:])
-            # Loops from the start variable to the end of nums
-            for i in range(start, len(nums)):
-                # Adds the current number to the stack
-                stack.append(nums[i])
-                # Calls our backtracking function with start incremented and stack with the new number
-                backtrack(i + 1, stack)
-                # Pops most recent number in stack (backtracking)
-                stack.pop()
-        # Creates the result list
         res = []
-        # Calls backtrack with a 0 index and an empty stack
-        backtrack(0, [])
-        # Returns the result
+        subset = []
+
+        # Recursive DFS function
+        def dfs(i):
+            if i >= len(nums):
+                res.append(subset.copy())
+                return
+            # Decision to include nums[i]
+            subset.append(nums[i])
+            dfs(i + 1)
+
+            # Decision to not include nums[i]
+            subset.pop()
+            dfs(i + 1)
+
+        # Calls DFS starting at index 0
+        dfs(0)
         return res

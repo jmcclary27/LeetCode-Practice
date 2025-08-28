@@ -56,3 +56,19 @@ Return the head of the copied linked list.
 In the examples, the linked list is represented as a list of n nodes. Each node is represented as a pair of [val, random_index] where random_index is the index of the node (0-indexed) that the random pointer points to, or null if it does not point to any node.
 
 Idea: The idea here is to create a hash map in the initializer of the class since we will be recursively navigating through the linked list. We navigate using recursion so when we are done we can easily return the head of the list, and while we are finding the next pointers using recursion, our hash map will copy each node so when we return we will know what that nodes random pointer is too. So we set up the base cases of head being None and head being in the hashmap, and other than that we just add head to the map with its copied node as the value, then we call the function using head.next, and after the recursive call we get head.random from the map, because by the time that is called, the map will already have every node in it. This function runs in O(n) runtime and space complexity.
+
+## Add Two Numbers (Medium)
+
+You are given two non-empty linked lists, l1 and l2, where each represents a non-negative integer.
+The digits are stored in reverse order, e.g. the number 123 is represented as 3 -> 2 -> 1 -> in the linked list.
+Each of the nodes contains a single digit. You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Return the sum of the two numbers as a linked list.
+
+Idea: The idea is to create a recursive helper function that not only keeps track of the current node for each list, but the carry from addition as well. This method O(m + n) for both the time and space complexity.
+
+## Merge K Sorted Lists (Hard)
+
+You are given an array of k linked lists lists, where each list is sorted in ascending order.
+Return the sorted linked list that is the result of merging all of the individual linked lists.
+
+Idea: The idea is to create a previous and current node pointer for lists to create the new list. I made an outer while loop that loops until all the lists have been iterated through, and then an inner for loop that checks each head of the list and finds the smallest value between them. When the smallest value is found, we set previous.next to point to it, and then shift the previous and current node up one. Lastly, we remove that node from the original list.

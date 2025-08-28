@@ -45,3 +45,11 @@ The grouping (1 01 2) is invalid because 01 cannot be mapped into a letter since
 Given a string s containing only digits, return the number of ways to decode it. You can assume that the answer fits in a 32-bit integer.
 
 Idea: The idea here is to once again use a tablular space optimized method. There are some edge cases to watch out for, but the general idea is it is once again a fibonnaci sequence for the possible ways to go about this. The only difference this time is 0's can cause some weird behaviour. The time complexity for this problem is O(n) for runtime and O(1) for space complexity. 
+
+## Coin Change (Medium)
+
+You are given an integer array coins representing coins of different denominations (e.g. 1 dollar, 5 dollars, etc) and an integer amount representing a target amount of money.
+Return the fewest number of coins that you need to make up the exact target amount. If it is impossible to make up the amount, return -1.
+You may assume that you have an unlimited number of each coin.
+
+Idea: The idea here is to use tabulation to calculate the least amount of coins starting at amount = 0 all the way to amount = n. To find the least amount of coins for amount = k, we start with a coin called c, which now gives us a total of one coin. We then calculate the least amount of coins for the amount k - c, which is how much we have left. By the time we get up to k = n, we will already know the least amount of coins for any k - c. This code runs in O(n * t), where t is the given amount, and O(t) space.
