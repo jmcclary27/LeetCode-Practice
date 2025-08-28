@@ -25,3 +25,14 @@ You may decide your bananas-per-hour eating rate of k. Each hour, you may choose
 Return the minimum integer k such that you can eat all the bananas within h hours.
 
 Idea: The idea here is to use binary search to find our number k. We do this by initially making the low and high numbers for our binary search the lowest and highest possible answers, which is one and the largest pile. We then calculate the number of hours it would take if we ate at a rate of ((low + high) // 2) bananas per hour. We do this by dividing each pile by our middle number and rounding up. If the total number of hours is less than or equal to h, we have found a valid number, and update our result to be our new mid number, and then make high equal to middle - 1. If it is not, we make low = mid + 1, and try again. This solution has a time complexity of O(nlogm) and a space complexity of O(1).
+
+## Find Minimum in a Rotated Sorted Array (Medium)
+
+You are given an array of length n which was originally sorted in ascending order. It has now been rotated between 1 and n times. For example, the array nums = [1,2,3,4,5,6] might become:
+[3,4,5,6,1,2] if it was rotated 4 times.
+[1,2,3,4,5,6] if it was rotated 6 times.
+Notice that rotating the array 4 times moves the last four elements of the array to the beginning. Rotating the array 6 times produces the original array.
+Assuming all elements in the rotated sorted array nums are unique, return the minimum element of this array.
+A solution that runs in O(n) time is trivial, can you write an algorithm that runs in O(log n) time?
+
+Idea: The idea here is to use binary search and logic. If nums[L] is less than nums[R], then the array is sorted and we can return nums[L]. Otherwise, we need to figure out whether our mid point will lead us to bigger or smaller numbers. The way we find this is by simply comparing to see if the number at mid is bigger than the number at L. If it is bigger, then we know the minimum is on the right and we shift L to mid. If it is smaller, we know the minimum is on the left and we shift R to mid. This runs in O(logn) time with a space complexity of O(1).
