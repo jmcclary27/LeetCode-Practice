@@ -69,3 +69,10 @@ A consecutive sequence is a sequence of elements in which each element is exactl
 You must write an algorithm that runs in O(n) time.
 
 Idea: The idea is to create a set with all the numbers in nums as the keys so that we can loop through each number without having any duplicates. We then check if num - 1 exists, which checks if num is the start of a sequence, and if it doesn't exist, then we know we have found a start. If num - 1 doesn't exist, we create a variable called length with a value of one, and loop until num + length doesn't exist in our set, all while incrementing length with each iteration. Once we have found the end of the sequence, we compare that length to our previous longest length, and store whichever length is bigger in our longest length variable. Since every number is seen at most twice, it is O(n) runtime with O(n) space due to our creation of the hashset. 
+
+## Subarray Sum Equals K (Medium)
+
+Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
+A subarray is a contiguous non-empty sequence of elements within an array.
+
+Idea: The idea is to create a has table where the key is the previx sum number and the value is the frequency of the specific prefix sum answer. We do this by creating the variables total and count, where total keeps track of the current prefix sum, and count keeps track of the number of valid subarrays found so far. Keeping track of the current prefix sum makes it obvious if we have a valid subarray starting from index zero, but how do we figure out if there is a valid subarray starting after 0? Well, if the current prefix sum, total, subtracted by some earlier prefix sum is equal to k, then we know that there is a valid array starting and ending at those two prefix sums. If this happens, we increment count. At the end of the loop, we add the current prefix sum to our hashmap. This method runs in O(N) time and space complexity.
