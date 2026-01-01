@@ -76,3 +76,14 @@ Given an array of integers nums and an integer k, return the total number of sub
 A subarray is a contiguous non-empty sequence of elements within an array.
 
 Idea: The idea is to create a has table where the key is the previx sum number and the value is the frequency of the specific prefix sum answer. We do this by creating the variables total and count, where total keeps track of the current prefix sum, and count keeps track of the number of valid subarrays found so far. Keeping track of the current prefix sum makes it obvious if we have a valid subarray starting from index zero, but how do we figure out if there is a valid subarray starting after 0? Well, if the current prefix sum, total, subtracted by some earlier prefix sum is equal to k, then we know that there is a valid array starting and ending at those two prefix sums. If this happens, we increment count. At the end of the loop, we add the current prefix sum to our hashmap. This method runs in O(N) time and space complexity.
+
+## LRU Cache (Medium)
+
+Implement the Least Recently Used (LRU) cache class LRUCache. The class should support the following operations
+
+LRUCache(int capacity) Initialize the LRU cache of size capacity.
+int get(int key) Return the value corresponding to the key if the key exists, otherwise return -1.
+void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the introduction of the new pair causes the cache to exceed its capacity, remove the least recently used key.
+A key is considered used if a get or a put operation is called on it.
+
+Ensure that get and put each run in O(1) average time complexity.
