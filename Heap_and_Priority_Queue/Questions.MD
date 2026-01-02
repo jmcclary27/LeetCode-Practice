@@ -8,3 +8,13 @@ constructor(int k, int[] nums) Initializes the object given an integer k and the
 int add(int val) Adds the integer val to the stream and returns the kth largest integer in the stream.
 
 Idea: The idea here is to create a minheap out of the numbers array in the constructor, and while in the constructor, remove the smallest elements until there are k elements left. The reason we do this is because we want to keep k elements in the minheap so that finding the kth largest element is just finding the smallest element in the heap. In the add function, we add the value to the heap, and if the length of the heap is larger than k, we remove the smallest element, and then at the end we return the smallest element in the heap. This runs in O(mlogk) runtime complexity, where m is the number of times add is called, and O(k) space.
+
+## Last Stone Weight (Easy)
+
+You are given an array of integers stones where stones[i] represents the weight of the ith stone.
+We want to run a simulation on the stones as follows:
+At each step we choose the two heaviest stones, with weight x and y and smash them togethers
+If x == y, both stones are destroyed
+If x < y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x.
+Continue the simulation until there is no more than one stone remaining.
+Return the weight of the last remaining stone or return 0 if none remain.
