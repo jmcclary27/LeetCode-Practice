@@ -29,3 +29,9 @@ For simplicity, nodes values are numbered from 1 to n, where n is the total numb
 The input node will always be the first node in the graph and have 1 as the value.
 
 Idea: The idea is to use a hash map that maps the nodes of the old graph to the new graph. We fill this map by creating a nested recursive DFS function that gets applied to all the neighbors of the current node. This code runs in O(V + E) time complexity and O(V) space complexity.
+
+## Surrounded Regions (Medium)
+
+You are given a 2-D matrix board containing 'X' and 'O' characters.
+If a continous, four-directionally connected group of 'O's is surrounded by 'X's, it is considered to be surrounded.
+Change all surrounded regions of 'O's to 'X's and do so in-place by modifying the input board.
