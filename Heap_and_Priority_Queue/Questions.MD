@@ -25,3 +25,9 @@ You are given an 2-D array points where points[i] = [xi, yi] represents the coor
 Return the k closest points to the origin (0, 0).
 The distance between two points is defined as the Euclidean distance (sqrt((x1 - x2)^2 + (y1 - y2)^2)).
 You may return the answer in any order.
+
+## Kth Largest Element In An Array (Medium)
+
+Given an unsorted array of integers nums and an integer k, return the kth largest element in the array.
+By kth largest element, we mean the kth largest element in the sorted order, not the kth distinct element.
+Follow-up: Can you solve it without sorting?
