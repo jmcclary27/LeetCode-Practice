@@ -35,3 +35,10 @@ Idea: The idea is to use a hash map that maps the nodes of the old graph to the 
 You are given a 2-D matrix board containing 'X' and 'O' characters.
 If a continous, four-directionally connected group of 'O's is surrounded by 'X's, it is considered to be surrounded.
 Change all surrounded regions of 'O's to 'X's and do so in-place by modifying the input board.
+
+## Course Schedule (Medium)
+
+You are given an array prerequisites where prerequisites[i] = [a, b] indicates that you must take course b first if you want to take course a.
+The pair [0, 1], indicates that must take course 1 before taking course 0.
+There are a total of numCourses courses you are required to take, labeled from 0 to numCourses - 1.
+Return true if it is possible to finish all courses, otherwise return false.
