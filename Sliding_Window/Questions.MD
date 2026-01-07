@@ -14,3 +14,9 @@ Given a string s, find the length of the longest substring without duplicate cha
 A substring is a contiguous sequence of characters within a string.
 
 Idea: The idea here is to create a set for each letter in the string. We loop through the entire string and if the letter at the index of our second pointer is in the character set, we have found a duplicate and remove everything from the set one by one, all while incrementing l. We then find how many times l was incremented (which is the length of the substring) and see if it is greater than our current max length. After looping through every letter, we return the max length of substring in O(n) time and O(m) space, where m is the number of unique characters.
+
+## Permutation in String (Medium)
+
+You are given two strings s1 and s2.
+Return true if s2 contains a permutation of s1, or false otherwise. That means if a permutation of s1 exists as a substring of s2, then return true.
+Both strings only contain lowercase letters.
