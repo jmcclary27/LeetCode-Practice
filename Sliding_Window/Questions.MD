@@ -20,3 +20,8 @@ Idea: The idea here is to create a set for each letter in the string. We loop th
 You are given two strings s1 and s2.
 Return true if s2 contains a permutation of s1, or false otherwise. That means if a permutation of s1 exists as a substring of s2, then return true.
 Both strings only contain lowercase letters.
+
+## Longest Repeating Character Replacement (Medium)
+
+You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
+After performing at most k replacements, return the length of the longest substring which contains only one distinct character.
