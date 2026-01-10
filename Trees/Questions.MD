@@ -67,3 +67,11 @@ Within a binary tree, a node x is considered good if the path from the root of t
 Given the root of a binary tree root, return the number of good nodes within the tree.
 
 Idea: The idea is to create a recursive depth first search algorithm that keeps track of the current greatest value seen on that path. If the current value is higher than the greatest value, then we return 1 + the total from the left and right side, if not, then it's just the total from the two sides. This runs in O(n) for both runtime and space complexity.
+
+## Valid Binary Search Tree (Medium)
+
+Given the root of a binary tree, return true if it is a valid binary search tree, otherwise return false.
+A valid binary search tree satisfies the following constraints:
+The left subtree of every node contains only nodes with keys less than the node's key.
+The right subtree of every node contains only nodes with keys greater than the node's key.
+Both the left and right subtrees are also binary search trees.
