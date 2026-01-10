@@ -25,3 +25,8 @@ Both strings only contain lowercase letters.
 
 You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
 After performing at most k replacements, return the length of the longest substring which contains only one distinct character.
+
+## Minimum Window Substring (Hard)
+
+Given two strings s and t, return the shortest substring of s such that every character in t, including duplicates, is present in the substring. If such a substring does not exist, return an empty string "".
+You may assume that the correct output is always unique.
