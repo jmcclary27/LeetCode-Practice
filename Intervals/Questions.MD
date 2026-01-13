@@ -23,3 +23,8 @@ Note: Intervals are non-overlapping if they have no common point. For example, [
 
 Given an array of intervals intervals where intervals[i] = [start_i, end_i], return the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.
 Note: Intervals are non-overlapping even if they have a common point. For example, [1, 3] and [2, 4] are overlapping, but [1, 2] and [2, 3] are non-overlapping.
+
+## Meeting Rooms II (Medium)
+
+Given an array of meeting time interval objects consisting of start and end times [[start_1,end_1],[start_2,end_2],...] (start_i < end_i), find the minimum number of days required to schedule all meetings without any conflicts.
+Note: (0,8),(8,10) is not considered a conflict at 8.
