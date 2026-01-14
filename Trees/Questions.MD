@@ -75,3 +75,11 @@ A valid binary search tree satisfies the following constraints:
 The left subtree of every node contains only nodes with keys less than the node's key.
 The right subtree of every node contains only nodes with keys greater than the node's key.
 Both the left and right subtrees are also binary search trees.
+
+## Construct Binary Tree From Preorder and Inorder Traversal (Medium)
+
+You are given two integer arrays preorder and inorder.
+preorder is the preorder traversal of a binary tree
+inorder is the inorder traversal of the same tree
+Both arrays are of the same size and consist of unique values.
+Rebuild the binary tree from the preorder and inorder traversals and return its root.
