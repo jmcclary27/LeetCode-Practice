@@ -49,3 +49,9 @@ You are given an array prerequisites where prerequisites[i] = [a, b] indicates t
 For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
 There are a total of numCourses courses you are required to take, labeled from 0 to numCourses - 1.
 Return a valid ordering of courses you can take to finish all courses. If there are many valid answers, return any of them. If it's not possible to finish all courses, return an empty array.
+
+## Number of Connected Components in an Undirected Graph (Medium)
+
+There is an undirected graph with n nodes. There is also an edges array, where edges[i] = [a, b] means that there is an edge between node a and node b in the graph.
+The nodes are numbered from 0 to n - 1.
+Return the total number of connected components in that graph.
