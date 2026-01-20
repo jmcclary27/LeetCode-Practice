@@ -75,3 +75,9 @@ vi is the target node (an integer from 1 to n)
 ti is the time it takes for a signal to travel from the source to the target node (an integer greater than or equal to 0).
 You are also given an integer k, representing the node that we will send a signal from.
 Return the minimum time it takes for all of the n nodes to receive the signal. If it is impossible for all the nodes to receive the signal, return -1 instead.
+
+## Min Cost to Connect Points (Medium)
+
+You are given a 2-D integer array points, where points[i] = [xi, yi]. Each points[i] represents a distinct point on a 2-D plane.
+The cost of connecting two points [xi, yi] and [xj, yj] is the manhattan distance between the two points, i.e. |xi - xj| + |yi - yj|.
+Return the minimum cost to connect all points together, such that there exists exactly one path between each pair of points.
