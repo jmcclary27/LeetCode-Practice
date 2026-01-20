@@ -81,3 +81,11 @@ Return the minimum time it takes for all of the n nodes to receive the signal. I
 You are given a 2-D integer array points, where points[i] = [xi, yi]. Each points[i] represents a distinct point on a 2-D plane.
 The cost of connecting two points [xi, yi] and [xj, yj] is the manhattan distance between the two points, i.e. |xi - xj| + |yi - yj|.
 Return the minimum cost to connect all points together, such that there exists exactly one path between each pair of points.
+
+## Word Ladder (Hard)
+
+You are given two words, beginWord and endWord, and also a list of words wordList. All of the given words are of the same length, consisting of lowercase English letters, and are all distinct.
+Your goal is to transform beginWord into endWord by following the rules:
+You may transform beginWord to any word within wordList, provided that at exactly one position the words have a different character, and the rest of the positions have the same characters.
+You may repeat the previous step with the new word that you obtain, and you may do this as many times as needed.
+Return the minimum number of words within the transformation sequence needed to obtain the endWord, or 0 if no such sequence exists.
