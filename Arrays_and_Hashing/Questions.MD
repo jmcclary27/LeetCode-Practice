@@ -6,6 +6,14 @@ Given an integer array nums, return true if any value appears more than once in 
 
 Idea: Create a set from the elements within Nums, and then compare the length of the set to the length of Nums. If the lengths are the same, then there isn't and duplicate and we return false. If the length of the set is smaller than the length of Nums, then there is a duplicate and we return true. This has a big O(n) runtime complexity and a O(n) space complexity.
 
+## Minimum Pair Removal To Sort Array (Easy)
+
+Given an array nums, you can perform the following operation any number of times:
+Select the adjacent pair with the minimum sum in nums. If multiple such pairs exist, choose the leftmost one.
+Replace the pair with their sum.
+Return the minimum number of operations needed to make the array non-decreasing.
+An array is said to be non-decreasing if each element is greater than or equal to its previous element (if it exists).
+
 ## Valid Anagram (Easy)
 
 Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
