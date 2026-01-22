@@ -89,3 +89,13 @@ Your goal is to transform beginWord into endWord by following the rules:
 You may transform beginWord to any word within wordList, provided that at exactly one position the words have a different character, and the rest of the positions have the same characters.
 You may repeat the previous step with the new word that you obtain, and you may do this as many times as needed.
 Return the minimum number of words within the transformation sequence needed to obtain the endWord, or 0 if no such sequence exists.
+
+## Cheapest Flights Within K Steps (Medium)
+
+There are n airports, labeled from 0 to n - 1, which are connected by some flights. You are given an array flights where flights[i] = [from_i, to_i, price_i] represents a one-way flight from airport from_i to airport to_i with cost price_i. You may assume there are no duplicate flights and no flights from an airport to itself.
+You are also given three integers src, dst, and k where:
+src is the starting airport
+dst is the destination airport
+src != dst
+k is the maximum number of stops you can make (not including src and dst)
+Return the cheapest price from src to dst with at most k stops, or return -1 if it is impossible.
