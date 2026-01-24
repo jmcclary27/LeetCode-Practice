@@ -10,7 +10,13 @@ boolean search(String word) Returns true if the string word is in the prefix tre
 boolean startsWith(String prefix) Returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise.
 
 ## Design Add and Search Word Data Structure (Medium)
+
 Design a data structure that supports adding new words and searching for existing words.
 Implement the WordDictionary class:
 void addWord(word) Adds word to the data structure.
 bool search(word) Returns true if there is any string in the data structure that matches word or false otherwise. word may contain dots '.' where dots can be matched with any letter.
+
+## Word Search II (Hard)
+
+Given a 2-D grid of characters board and a list of strings words, return all words that are present in the grid.
+For a word to be present it must be possible to form the word with a path in the board with horizontally or vertically neighboring cells. The same cell may not be used more than once in a word.
