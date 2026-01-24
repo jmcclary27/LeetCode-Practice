@@ -21,3 +21,8 @@ Return an array output where output[i] is the number of 1's in the binary repres
 ## Reverse Bits (Easy)
 
 Given a 32-bit unsigned integer n, reverse the bits of the binary representation of n and return the result.
+
+## Missing Number (Easy)
+
+Given an array nums containing n integers in the range [0, n] without any duplicates, return the single number in the range that is missing from nums.
+Follow-up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
