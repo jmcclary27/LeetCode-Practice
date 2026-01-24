@@ -12,3 +12,8 @@ O(1) extra space.
 
 You are given an unsigned integer n. Return the number of 1 bits in its binary representation.
 You may assume n is a non-negative integer which fits within 32-bits.
+
+## Counting Bits (Easy)
+
+Given an integer n, count the number of 1's in the binary representation of every number in the range [0, n].
+Return an array output where output[i] is the number of 1's in the binary representation of i.
