@@ -17,3 +17,7 @@ You may assume n is a non-negative integer which fits within 32-bits.
 
 Given an integer n, count the number of 1's in the binary representation of every number in the range [0, n].
 Return an array output where output[i] is the number of 1's in the binary representation of i.
+
+## Reverse Bits (Easy)
+
+Given a 32-bit unsigned integer n, reverse the bits of the binary representation of n and return the result.
