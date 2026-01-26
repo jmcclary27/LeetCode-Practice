@@ -27,6 +27,12 @@ You have a car that can store an unlimited amount of gas, but you begin the jour
 Return the starting gas station's index such that you can travel around the circuit once in the clockwise direction. If it's impossible, then return -1.
 It's guaranteed that at most one solution exists.
 
+## Hand of Straights (Medium)
+
+You are given an integer array hand where hand[i] is the value written on the ith card and an integer groupSize.
+You want to rearrange the cards into groups so that each group is of size groupSize, and card values are consecutively increasing by 1.
+Return true if it's possible to rearrange the cards in this way, otherwise, return false.
+
 ## Merge Triplets to Form Target (Medium)
 
 You are given a 2D array of integers triplets, where triplets[i] = [ai, bi, ci] represents the ith triplet. You are also given an array of integers target = [x, y, z] which is the triplet we want to obtain.
