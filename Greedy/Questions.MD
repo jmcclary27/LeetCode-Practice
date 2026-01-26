@@ -46,3 +46,13 @@ Return true if it is possible to obtain target as an element of triplets, or fal
 You are given a string s consisting of lowercase english letters.
 We want to split the string into as many substrings as possible, while ensuring that each letter appears in at most one substring.
 Return a list of integers representing the size of these substrings in the order they appear in the string.
+
+## Valid Parenthesis String (Medium)
+
+You are given a string s which contains only three types of characters: '(', ')' and '*'.
+Return true if s is valid, otherwise return false.
+A string is valid if it follows all of the following rules:
+Every left parenthesis '(' must have a corresponding right parenthesis ')'.
+Every right parenthesis ')' must have a corresponding left parenthesis '('.
+Left parenthesis '(' must go before the corresponding right parenthesis ')'.
+A '*' could be treated as a right parenthesis ')' character or a left parenthesis '(' character, or as an empty string "".
