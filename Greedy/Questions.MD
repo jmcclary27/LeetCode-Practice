@@ -40,3 +40,9 @@ To obtain target, you may apply the following operation on triplets zero or more
 Choose two different triplets triplets[i] and triplets[j] and update triplets[j] to become [max(ai, aj), max(bi, bj), max(ci, cj)].
 * E.g. if triplets[i] = [1, 3, 1] and triplets[j] = [2, 1, 2], triplets[j] will be updated to [max(1, 2), max(3, 1), max(1, 2)] = [2, 3, 2].
 Return true if it is possible to obtain target as an element of triplets, or false otherwise.
+
+## Partition Labels (Medium)
+
+You are given a string s consisting of lowercase english letters.
+We want to split the string into as many substrings as possible, while ensuring that each letter appears in at most one substring.
+Return a list of integers representing the size of these substrings in the order they appear in the string.
