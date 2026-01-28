@@ -13,6 +13,19 @@ Given a positive integer n, return true if it is a non-cyclical number, otherwis
 You are given an integer array digits, where each digits[i] is the ith digit of a large integer. It is ordered from most significant to least significant digit, and it will not contain any leading zero.
 Return the digits of the given integer after incrementing it by one.
 
+## Excel Sheet Column Number (Easy)
+
+Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
+For example:
+A -> 1
+B -> 2
+C -> 3
+...
+Z -> 26
+AA -> 27
+AB -> 28 
+...
+
 ## Rotate Image (Medium)
 
 Given a square n x n matrix of integers matrix, rotate it by 90 degrees clockwise.
