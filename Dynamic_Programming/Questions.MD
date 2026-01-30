@@ -53,3 +53,9 @@ Return the fewest number of coins that you need to make up the exact target amou
 You may assume that you have an unlimited number of each coin.
 
 Idea: The idea here is to use tabulation to calculate the least amount of coins starting at amount = 0 all the way to amount = n. To find the least amount of coins for amount = k, we start with a coin called c, which now gives us a total of one coin. We then calculate the least amount of coins for the amount k - c, which is how much we have left. By the time we get up to k = n, we will already know the least amount of coins for any k - c. This code runs in O(n * t), where t is the given amount, and O(t) space.
+
+## Maximum Product Subarray (Medium)
+
+Given an integer array nums, find a subarray that has the largest product within the array and return it.
+A subarray is a contiguous non-empty sequence of elements within an array.
+You can assume the output will fit into a 32-bit integer.
