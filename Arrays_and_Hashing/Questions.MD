@@ -29,6 +29,11 @@ Return the answer with the smaller index first.
 
 Idea: Create an empty dictionary and then loop through nums. Subtract The target value by the current number, and see if this difference is in our dictionary. If it is in our dictionary, return the value of the key number in the dictionary (which is its index in nums) and return the current index. If it is not in our dictionary, add the current number to the dictionary with its index being its value. This solution has a O(n) runtime complexity and a O(n) space complexity.
 
+## Find Smallest Letter Greater Than Target (Easy)
+
+You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters.
+Return the smallest character in letters that is lexicographically greater than target. If such a character does not exist, return the first character in letters.
+
 ## Group Anagram (Medium)
 
 Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
