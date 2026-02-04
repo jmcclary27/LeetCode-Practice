@@ -26,3 +26,7 @@ Given a 32-bit unsigned integer n, reverse the bits of the binary representation
 
 Given an array nums containing n integers in the range [0, n] without any duplicates, return the single number in the range that is missing from nums.
 Follow-up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
+
+## Sum of Two Integers (Medium)
+
+Given two integers a and b, return the sum of the two integers without using the + and - operators.
