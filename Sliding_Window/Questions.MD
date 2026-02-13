@@ -30,3 +30,8 @@ After performing at most k replacements, return the length of the longest substr
 
 Given two strings s and t, return the shortest substring of s such that every character in t, including duplicates, is present in the substring. If such a substring does not exist, return an empty string "".
 You may assume that the correct output is always unique.
+
+## Maximum Window Substring (Hard)
+
+You are given an array of integers nums and an integer k. There is a sliding window of size k that starts at the left edge of the array. The window slides one position to the right until it reaches the right edge of the array.
+Return a list that contains the maximum element in the window at each step.
