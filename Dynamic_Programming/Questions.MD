@@ -65,3 +65,8 @@ You can assume the output will fit into a 32-bit integer.
 Given a string s, return the longest substring of s that is a palindrome.
 A palindrome is a string that reads the same forward and backward.
 If there are multiple palindromic substrings that have the same length, return any one of them.
+
+## Palindromic Substring (Medium)
+
+Given a string s, return the number of substrings within s that are palindromes.
+A palindrome is a string that reads the same forward and backward.
