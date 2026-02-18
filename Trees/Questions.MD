@@ -83,3 +83,9 @@ preorder is the preorder traversal of a binary tree
 inorder is the inorder traversal of the same tree
 Both arrays are of the same size and consist of unique values.
 Rebuild the binary tree from the preorder and inorder traversals and return its root.
+
+## Binary Tree Maximum Path Sum (Hard)
+
+Given the root of a non-empty binary tree, return the maximum path sum of any non-empty path.
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes has an edge connecting them. A node can not appear in the sequence more than once. The path does not necessarily need to include the root.
+The path sum of a path is the sum of the node's values in the path.
