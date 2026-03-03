@@ -21,3 +21,9 @@ After you sell your NeetCoin, you cannot buy another one on the next day (i.e., 
 You may only own at most one NeetCoin at a time.
 You may complete as many transactions as you like.
 Return the maximum profit you can achieve.
+
+## Coin Change II (Medium)
+
+You are given an integer array coins representing coins of different denominations (e.g. 1 dollar, 5 dollars, etc) and an integer amount representing a target amount of money.
+Return the number of distinct combinations that total up to amount. If it's impossible to make up the amount, return 0.
+You may assume that you have an unlimited number of each coin and that each value in coins is unique.
