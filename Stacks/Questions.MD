@@ -11,6 +11,17 @@ Return true if s is a valid string, and false otherwise.
 
 Idea: We will be utilizing a stack to solve this problem. We do this because of a stack having the LIFO property (Last In First Out). Since we are given only three pairings, we can first make a dictionary, with the keys being the open symbols, and their values being the closed symbols. We then loop through the string, and if the current character is an open symbol, we push it to the stack. If the character is closed, we check to see if the top of our stack pairs with it using the dictionary we made earlier, if it does, we pop it off the stack and keep going, if it doesn't we return false. There are also plenty of edge cases here that we watch out for. Using this push and pop method, the code runs in O(n) time and space complexity.
 
+## Baseball Game (Easy)
+
+You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.
+Given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:
+An integer x: Record a new score of x.
+'+': Record a new score that is the sum of the previous two scores.
+'D': Record a new score that is the double of the previous score.
+'C': Invalidate the previous score, removing it from the record.
+Return the sum of all the scores on the record after applying all the operations.
+Note: The test cases are generated such that the answer and all intermediate calculations fit in a 32-bit integer and that all operations are valid.
+
 ## Minimum Stack (Medium)
 
 Design a stack class that supports the push, pop, top, and getMin operations.
