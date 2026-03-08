@@ -15,6 +15,12 @@ Return the minimum cost to reach the top of the staircase, i.e. just past the la
 
 Idea: The idea here is to do a space optimized tabular method, where instead of creating a new array, I edit the cost array in place. I created a variable called currMin, that keeps track of the minimum between the last two elements. I then loop through the cost array, adding the currMin to each element, and then finding the new currMin, so by the time I reach the end of cost, the minimum of the final two elements will have the cheapest possible path. This runs in O(n) runtime complexity and O(1) space complexity.
 
+## Nth Tribonacci Number (Easy)
+
+The Tribonacci sequence Tn is defined as follows:
+T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
+Given n, return the value of Tn.
+
 ## House Robber (Medium)
 
 You are given an integer array nums where nums[i] represents the amount of money the ith house has. The houses are arranged in a straight line, i.e. the ith house is the neighbor of the (i-1)th and (i+1)th house.
