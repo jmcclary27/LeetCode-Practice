@@ -44,6 +44,11 @@ It is not necessary to consider elements beyond the first k positions of the arr
 To be accepted, the first k elements of nums must contain only elements not equal to val.
 Return k as the final result.
 
+## Majority Element (Easy)
+
+Given an array nums of size n, return the majority element.
+The majority element is the element that appears more than ⌊n / 2⌋ times in the array. You may assume that the majority element always exists in the array.
+
 ## Group Anagram (Medium)
 
 Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
