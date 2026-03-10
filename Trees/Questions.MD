@@ -42,6 +42,10 @@ A subtree of a binary tree tree is a tree that consists of a node in tree and al
 
 Idea: The idea here is to essentiall create our own subtree, and check if these subtrees are equal to the real subtree. We do this by creating a second recursive DFS function that checks if the subtree is equal to the one given, and returns True if it is. Back in the main function, if our helper function returns True, then we just return True, otherwise we check again with recursive DFS (we check with the left and right children of the node). This idea runs in O(n * m) with n being the size of the tree and m being the size of the subtree. And it has a space of O(n + m) on the recursive stack, which is the size of the two trees.
 
+## Binary Tree Inorder Traversal (Easy)
+
+You are given the root of a binary tree, return the inorder traversal of its nodes' values.
+
 ## Lowest Common Ancestor in Binary Search Tree (Medium)
 
 Given a binary search tree (BST) where all node values are unique, and two nodes from the tree p and q, return the lowest common ancestor (LCA) of the two nodes.
