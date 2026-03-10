@@ -46,6 +46,10 @@ Idea: The idea here is to essentiall create our own subtree, and check if these 
 
 You are given the root of a binary tree, return the inorder traversal of its nodes' values.
 
+## Binary Tree Preorder Traversal (easy)
+
+You are given the root of a binary tree, return the preorder traversal of its nodes' values.
+
 ## Lowest Common Ancestor in Binary Search Tree (Medium)
 
 Given a binary search tree (BST) where all node values are unique, and two nodes from the tree p and q, return the lowest common ancestor (LCA) of the two nodes.
