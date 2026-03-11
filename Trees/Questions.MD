@@ -46,9 +46,13 @@ Idea: The idea here is to essentiall create our own subtree, and check if these 
 
 You are given the root of a binary tree, return the inorder traversal of its nodes' values.
 
-## Binary Tree Preorder Traversal (easy)
+## Binary Tree Preorder Traversal (Easy)
 
 You are given the root of a binary tree, return the preorder traversal of its nodes' values.
+
+## Binary Tree Postorder Traversal (Easy)
+
+You are given the root of a binary tree, return the postorder traversal of its nodes' values.
 
 ## Lowest Common Ancestor in Binary Search Tree (Medium)
 
