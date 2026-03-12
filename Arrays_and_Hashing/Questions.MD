@@ -44,6 +44,11 @@ It is not necessary to consider elements beyond the first k positions of the arr
 To be accepted, the first k elements of nums must contain only elements not equal to val.
 Return k as the final result.
 
+## Reverse String(Easy)
+
+You are given an array of characters which represents a string s. Write a function which reverses a string.
+You must do this by modifying the input array in-place with O(1) extra memory.
+
 ## Majority Element (Easy)
 
 Given an array nums of size n, return the majority element.
