@@ -1,5 +1,12 @@
 # Descriptions and any additional notes for every questions written below
 
+## Island Perimeter (Easy)
+
+You are given a row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.
+Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1.
+Return the perimeter of the island.
+
 ## Number of Islands (Medium)
 
 Given a 2D grid grid where '1' represents land and '0' represents water, count and return the number of islands.
