@@ -8,6 +8,10 @@ Return the maximum profit you can achieve. You may choose to not make any transa
 
 Idea: The idea here is to establish two pointers at the first two indexes and loop until that second pointer has made it through the whole array. In the loop, we check if the price at the right pointer is greater than the price at the left pointer, and if it is, we find their difference and assign the max profit variable to whichever is greater. If not, we move the left pointer up to the right pointer. We increment r at the end of each loop. We then return our max profit. This executes in O(n) time and O(1) space.
 
+## Contains Duplicate II (Easy)
+
+You are given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k, otherwise return false.
+
 ## Longest Substring Without Repeating Characters (Medium)
 
 Given a string s, find the length of the longest substring without duplicate characters.
