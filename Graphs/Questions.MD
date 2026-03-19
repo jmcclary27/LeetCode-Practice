@@ -7,6 +7,16 @@ Grid cells are connected horizontally/vertically (not diagonally). The grid is c
 The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1.
 Return the perimeter of the island.
 
+## Find The Town Judge (Medium)
+
+In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
+If the town judge exists, then:
+The town judge trusts nobody.
+Everybody (except for the town judge) trusts the town judge.
+There is exactly one person that satisfies properties 1 and 2.
+You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi.
+Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise.
+
 ## Number of Islands (Medium)
 
 Given a 2D grid grid where '1' represents land and '0' represents water, count and return the number of islands.
