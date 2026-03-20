@@ -14,6 +14,12 @@ You are given a string s, return true if the s can be a palindrome after deletin
 A palindrome is a string that reads the same forward and backward.
 Note: Alphanumeric characters consist of letters (A-Z, a-z) and numbers (0-9).
 
+## Merge Strings Alternately (Easy)
+
+You are given two strings, word1 and word2. Construct a new string by merging them in alternating order, starting with word1 — take one character from word1, then one from word2, and repeat this process.
+If one string is longer than the other, append the remaining characters from the longer string to the end of the merged result.
+Return the final merged string.
+
 ## Two Integer Sum II (Medium)
 
 Given an array of integers numbers that is sorted in non-decreasing order.
