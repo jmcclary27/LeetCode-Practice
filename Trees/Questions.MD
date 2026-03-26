@@ -72,6 +72,14 @@ Idea: The idea here is to implement an iterative BFS algorithm, but since we nee
 You are given the root node of a binary search tree (BST) and a value val to insert into the tree. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
 Note: There may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
 
+## Delete Node in a BST (Medium)
+
+You are given a root node reference of a BST and a key, delete the node with the given key in the BST, if present. Return the root node reference (possibly updated) of the BST.
+Basically, the deletion can be divided into two stages:
+Search for a node to remove.
+If the node is found, delete the node.
+Note: There can be multiple results after deleting the node, return any one of them.
+
 ## Binary Tree Right Side View (Medium)
 
 You are given the root of a binary tree. Return only the values of the nodes that are visible from the right side of the tree, ordered from top to bottom.
