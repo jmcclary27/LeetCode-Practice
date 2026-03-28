@@ -20,7 +20,7 @@ You are given two strings, word1 and word2. Construct a new string by merging th
 If one string is longer than the other, append the remaining characters from the longer string to the end of the merged result.
 Return the final merged string.
 
-## Merge Sorted Array (easy)
+## Merge Sorted Array (Easy)
 
 You are given two integer arrays nums1 and nums2, both sorted in non-decreasing order, along with two integers m and n, where:
 m is the number of valid elements in nums1,
@@ -28,6 +28,16 @@ n is the number of elements in nums2.
 The array nums1 has a total length of (m+n), with the first m elements containing the values to be merged, and the last n elements set to 0 as placeholders.
 Your task is to merge the two arrays such that the final merged array is also sorted in non-decreasing order and stored entirely within nums1.
 You must modify nums1 in-place and do not return anything from the function.
+
+## Remove Duplicates From Sorted Array (Easy)
+
+You are given an integer array nums sorted in non-decreasing order. Your task is to remove duplicates from nums in-place so that each element appears only once.
+After removing the duplicates, return the number of unique elements, denoted as k, such that the first k elements of nums contain the unique elements.
+Note:
+The order of the unique elements should remain the same as in the original array.
+It is not necessary to consider elements beyond the first k positions of the array.
+To be accepted, the first k elements of nums must contain all the unique elements.
+Return k as the final result.
 
 ## Two Integer Sum II (Medium)
 
