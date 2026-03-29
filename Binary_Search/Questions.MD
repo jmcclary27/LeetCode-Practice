@@ -8,6 +8,11 @@ Your solution must run in O(logn) time.
 
 Idea: The solution here is to implement the binary search algorithm. The idea behind the algorithm is to create a low and a high index, and the middle of those two is our middle index. We create a loop (our breaking condition is if low becomes greater than high because then we know our target is not in the array), and it is within that loop that we first calculate our middle index. We then check if the number at our middle index is the target, and if it is, return true. Otherwise, we see if our number is lower than target, and if it is, then we update our low index to be mid + 1, because we know it is not on the lower half of the array. If nothing else has executed, that means the number we are at is greater than our target, so we update high to be mid - 1, and continue looping. Since we eleminate half of the array with every iteration, our final runtime is O(log(n)) with a space complexity of O(1).
 
+## Search Insert Position (Easy)
+
+You are given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You must write an algorithm with O(log n) runtime complexity.
+
 ## Search a 2D Matrix (Medium)
 
 You are given an m x n 2-D integer array matrix and an integer target.
