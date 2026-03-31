@@ -13,6 +13,17 @@ Idea: The solution here is to implement the binary search algorithm. The idea be
 You are given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 You must write an algorithm with O(log n) runtime complexity.
 
+## Guess Number Higher Or Lower (Easy)
+
+We are playing the Guess Game. The game is as follows:
+I pick a number from 1 to n. You have to guess which number I picked.
+Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
+You call a pre-defined API int guess(int num), which returns three possible results:
+0: your guess is equal to the number I picked (i.e. num == pick).
+-1: Your guess is higher than the number I picked (i.e. num > pick).
+1: Your guess is lower than the number I picked (i.e. num < pick).
+Return the number that I picked.
+
 ## Search a 2D Matrix (Medium)
 
 You are given an m x n 2-D integer array matrix and an integer target.
