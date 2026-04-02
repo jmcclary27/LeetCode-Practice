@@ -33,3 +33,7 @@ You may return the combinations in any order and the order of the numbers in eac
 
 You are given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].
 You may return the answer in any order.
+
+## Permutations (Medium)
+
+Given an array nums of unique integers, return all the possible permutations. You may return the answer in any order.
