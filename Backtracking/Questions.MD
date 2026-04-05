@@ -42,3 +42,7 @@ Given an array nums of unique integers, return all the possible permutations. Yo
 
 You are given an array nums of integers, which may contain duplicates. Return all possible subsets.
 The solution must not contain duplicate subsets. You may return the solution in any order.
+
+## Permutations (Medium)
+
+You are given an array nums, that might contain duplicates , return all possible unique permutations in any order.
