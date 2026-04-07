@@ -24,6 +24,12 @@ You call a pre-defined API int guess(int num), which returns three possible resu
 1: Your guess is lower than the number I picked (i.e. num < pick).
 Return the number that I picked.
 
+## Sqrt(X) (Easy)
+
+You are given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+You must not use any built-in exponent function or operator.
+For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
+
 ## Search a 2D Matrix (Medium)
 
 You are given an m x n 2-D integer array matrix and an integer target.
