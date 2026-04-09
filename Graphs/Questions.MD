@@ -7,6 +7,11 @@ Grid cells are connected horizontally/vertically (not diagonally). The grid is c
 The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1.
 Return the perimeter of the island.
 
+## Verifying an Alien Dictionary (Easy)
+
+In an alien language, surprisingly, they also use English lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.
+Given a sequence of words written in the alien language, and the order of the alphabets, return true if and only if the given words are sorted lexicographically in this alien language.
+
 ## Find The Town Judge (Medium)
 
 In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
