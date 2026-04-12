@@ -34,3 +34,9 @@ You are given two binary strings a and b, return their sum as a binary string.
 ## Sum of Two Integers (Medium)
 
 Given two integers a and b, return the sum of the two integers without using the + and - operators.
+
+## Reverse Integer (Medium)
+
+You are given a signed 32-bit integer x.
+Return x after reversing each of its digits. After reversing, if x goes outside the signed 32-bit integer range [-2^31, 2^31 - 1], then return 0 instead.
+Solve the problem without using integers that are outside the signed 32-bit integer range.
