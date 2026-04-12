@@ -58,6 +58,13 @@ Each function should run in O(1) time.
 
 Idea: This question is essentially asking the coder to make a simple stack class. This seems relatively easy at first, however, we are asked to make ALL the functions in constant time. It is intuitive on getMin() to just loop through the stack to find the minimum element, but that does not follow our constant time constraint. The idea I am going with here is to have two stacks. One stack is the normal stack that we will do everything to, and the other stack is a minimum stack, with the values being the minimum value at each point of the regular stack. The idea here is for each time we push an element, we also push the minimum between the end of the minStack and the actual element we are pushing. When we pop the stack, we also pop the minStack. This idea gives us an O(n) space complexity with a O(1) runtime.
 
+## Online Stock Span (Medium)
+
+Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.
+The span of the stock's price in one day is the maximum number of consecutive days (starting from that day and going backward) for which the stock price was less than or equal to the price of that day.
+For example, if the prices of the stock in the last four days is [7,2,1,2] and the price of the stock today is 2, then the span of today is 4 because starting from today, the price of the stock was less than or equal 2 for 4 consecutive days.
+Also, if the prices of the stock in the last four days is [7,34,1,2] and the price of the stock today is 8, then the span of today is 3 because starting from today, the price of the stock was less than or equal 8 for 3 consecutive days.
+
 ## Asteroid Collision (Medium)
 
 You are given an array asteroids of integers representing asteroids in a row. The indices of the asteriod in the array represent their relative position in space.
