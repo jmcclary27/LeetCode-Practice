@@ -42,6 +42,12 @@ Return the maximum amount of money you can rob without alerting the police.
 
 Idea: The idea here is to use the algorithm in House Robber I with a little bit of a twist. Read the above problem for those details. Since the trick to this problem is that the array is cyclic, we have to manipulate our original algorithm. Since the first and last numbers are neighbors, we know that we can only pick one, so the trick is to run our original algorithm on the array without the first element, and again without the last, and take the greater of the two. This runs in O(n) runtime complexity and O(1) space.
 
+## Longest Increasing Subsequence (Medium)
+
+Given an integer array nums, return the length of the longest strictly increasing subsequence.
+A subsequence is a sequence that can be derived from the given sequence by deleting some or no elements without changing the relative order of the remaining characters.
+For example, "cat" is a subsequence of "crabt".
+
 ## Decode Ways (Medium)
 
 A string consisting of uppercase english characters can be encoded to a number using the following mapping:
