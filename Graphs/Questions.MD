@@ -129,6 +129,11 @@ src != dst
 k is the maximum number of stops you can make (not including src and dst)
 Return the cheapest price from src to dst with at most k stops, or return -1 if it is impossible.
 
+## Count Servers That Communicate (Medium)
+
+You are given a map of a server center, represented as a m * n integer matrix grid, where 1 means that on that cell there is a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column.
+Return the number of servers that communicate with any other server.
+
 ## Reconstruct Flight Path (Hard)
 
 You are given a list of flight tickets tickets where tickets[i] = [from_i, to_i] represent the source airport and the destination airport.
