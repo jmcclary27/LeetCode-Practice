@@ -62,6 +62,11 @@ void add(key) Inserts the value key into the HashSet.
 bool contains(key) Returns whether the value key exists in the HashSet or not.
 void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.
 
+## Replace Elements With Greatest Elements On Right Side (Easy)
+
+You are given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.
+After doing so, return the array.
+
 ## Group Anagram (Medium)
 
 Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
