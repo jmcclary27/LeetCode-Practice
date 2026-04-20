@@ -62,6 +62,11 @@ void add(key) Inserts the value key into the HashSet.
 bool contains(key) Returns whether the value key exists in the HashSet or not.
 void remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.
 
+## Is Subsequence (Easy)
+
+You are given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
 ## Replace Elements With Greatest Elements On Right Side (Easy)
 
 You are given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.
