@@ -72,6 +72,12 @@ A subsequence of a string is a new string that is formed from the original strin
 You are given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.
 After doing so, return the array.
 
+## Append Characters to String to Make Subsets (Medium)
+
+You are given two strings s and t consisting of only lowercase English letters.
+Return the minimum number of characters that need to be appended to the end of s so that t becomes a subsequence of s.
+A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+
 ## Group Anagram (Medium)
 
 Given an array of strings strs, group all anagrams together into sublists. You may return the output in any order.
