@@ -72,6 +72,15 @@ A subsequence of a string is a new string that is formed from the original strin
 You are given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.
 After doing so, return the array.
 
+## Design Hashmap (Easy)
+
+Design a HashMap without using any built-in hash table libraries.
+Implement the MyHashMap class:
+MyHashMap() initializes the object with an empty map.
+void put(int key, int value) inserts a (key, value) pair into the HashMap. If the key already exists in the map, update the corresponding value.
+int get(int key) returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key.
+void remove(key) removes the key and its corresponding value if the map contains the mapping for the key.
+
 ## Append Characters to String to Make Subsets (Medium)
 
 You are given two strings s and t consisting of only lowercase English letters.
