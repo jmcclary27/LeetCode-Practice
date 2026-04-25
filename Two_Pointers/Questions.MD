@@ -39,6 +39,21 @@ It is not necessary to consider elements beyond the first k positions of the arr
 To be accepted, the first k elements of nums must contain all the unique elements.
 Return k as the final result.
 
+## Valid Word Abbreviations (Easy)
+
+A string can be shortened by replacing any number of non-adjacent, non-empty substrings with their lengths (without leading zeros).
+For example, the string "implementation" can be abbreviated in several ways, such as:
+"i12n" -> ("i mplementatio n")
+"imp4n5n" -> ("imp leme n tatio n")
+"14" -> ("implementation")
+"implemetation" -> (no substrings replaced)
+Invalid abbreviations include:
+"i57n" -> (i mplem entatio n, adjacent substrings are replaced.)
+"i012n" -> (has leading zeros)
+"i0mplementation" (replaces an empty substring)
+You are given a string named word and an abbreviation named abbr, return true if abbr correctly abbreviates word, otherwise return false.
+A substring is a contiguous non-empty sequence of characters within a string.
+
 ## Two Integer Sum II (Medium)
 
 Given an array of integers numbers that is sorted in non-decreasing order.
