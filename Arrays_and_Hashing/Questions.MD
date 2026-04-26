@@ -81,6 +81,10 @@ void put(int key, int value) inserts a (key, value) pair into the HashMap. If th
 int get(int key) returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key.
 void remove(key) removes the key and its corresponding value if the map contains the mapping for the key.
 
+## Score of A String (Easy)
+
+You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
+
 ## Append Characters to String to Make Subsets (Medium)
 
 You are given two strings s and t consisting of only lowercase English letters.
