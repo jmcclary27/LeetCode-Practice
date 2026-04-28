@@ -14,6 +14,11 @@ The new list should be made up of nodes from list1 and list2.
 
 Idea: The idea here is to create an empty node that keeps track of our progress through the linked lists. If the current value in list1 is less than the current value at list2, we update the node to point to list1, and then we advance list1 by one. If the current value is list1 is not less than the current value at list2, we do the same thing as last time, but with list2. We do this within a while loop that loops until we reach the end of one of the lists, and by this time, our node should have traversed all of one list, so we can just make node point to the rest of the other list. We return our final list for a time complexity of O(n+m) and a space complexity of O(1). It is important to note that the space complexity is O(1) because we are connecting our lists together and editing them in place. Our node we created helps us traverse these two lists, it does NOT create a new list.
 
+## Palindrome Linked List (Easy)
+
+You are given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+A palindrome is a sequence that reads the same forward and backward.
+
 ## Linked List Cycle Detection (Easy) 
 
 Given the beginning of a linked list head, return true if there is a cycle in the linked list. Otherwise, return false.
