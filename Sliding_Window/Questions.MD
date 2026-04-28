@@ -12,6 +12,13 @@ Idea: The idea here is to establish two pointers at the first two indexes and lo
 
 You are given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k, otherwise return false.
 
+## Minimum Recolors to Get K Consecutive Black Blocks (Easy)
+
+You are given a 0-indexed string blocks of length n, where blocks[i] is either 'W' or 'B', representing the color of the ith block. The characters 'W' and 'B' denote the colors white and black, respectively.
+You are also given an integer k, which is the desired number of consecutive black blocks.
+In one operation, you can recolor a white block such that it becomes a black block.
+Return the minimum number of operations needed such that there is at least one occurrence of k consecutive black blocks.
+
 ## Longest Substring Without Repeating Characters (Medium)
 
 Given a string s, find the length of the longest substring without duplicate characters.
