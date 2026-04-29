@@ -74,6 +74,10 @@ Your solution must use O(1) additional space.
 
 Idea: Create two pointers at the beginning and end of the array, and loop until the two indexs meet. Check if the numbers at those indexes add to target, if they do, return a list of those indexes plus one. Since the array is sorted, if the sum is less than target, we just increment our first pointer, and if it is greater, we decrement our second pointer. With this method, we solve the problem in O(n) runtime complexity and O(1) space complexity.
 
+## Rotate Array (Medium)
+
+You are given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
 ## 3Sum (Medium)
 
 Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] where nums[i] + nums[j] + nums[k] == 0, and the indices i, j and k are all distinct.
