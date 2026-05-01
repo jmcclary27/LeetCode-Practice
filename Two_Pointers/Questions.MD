@@ -85,6 +85,12 @@ The output should not contain any duplicate triplets. You may return the output 
 
 Idea: The idea here is to sort nums and then enumerate it. The idea from here is simple, if our first pointer is positive, we have gone too far and we break, otherwise we just implement plain old two sum. Since we have to loop for the first pointer and then loop again for l and r, the runtime complexity is O(n^2) and has a space complexity of O(n) due to our resulting array
 
+## Adding Spaces To String (Medium)
+
+You are given a 0-indexed string s and a 0-indexed integer array spaces that describes the indices in the original string where spaces will be added. Each space should be inserted before the character at the given index.
+For example, given s = "EnjoyYourCoffee" and spaces = [5, 9], we place spaces before 'Y' and 'C', which are at indices 5 and 9 respectively. Thus, we obtain "Enjoy Your Coffee".
+Return the modified string after the spaces have been added.
+
 ## Container With Most Water (Medium)
 
 You are given an integer array heights where heights[i] represents the height of the ith bar.
