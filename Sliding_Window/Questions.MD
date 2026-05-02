@@ -19,6 +19,12 @@ You are also given an integer k, which is the desired number of consecutive blac
 In one operation, you can recolor a white block such that it becomes a black block.
 Return the minimum number of operations needed such that there is at least one occurrence of k consecutive black blocks.
 
+## Minimum Difference Between High and Low K Scores (Easy)
+
+You are given a 0-indexed integer array nums, where nums[i] represents the score of the ith student. You are also given an integer k.
+Pick the scores of any k students from the array so that the difference between the highest and the lowest of the k scores is minimized.
+Return the minimum possible difference.
+
 ## Longest Substring Without Repeating Characters (Medium)
 
 Given a string s, find the length of the longest substring without duplicate characters.
