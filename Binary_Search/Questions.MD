@@ -38,7 +38,13 @@ The first integer of every row is greater than the last integer of the previous 
 Return true if target exists within matrix or false otherwise.
 Can you write a solution that runs in O(log(m * n)) time?
 
-Idea: The idea here is to implement binary search, but with checks and mid calculations for both the rows and the columns. We do thsi by creating a low and a high for both the rows and the columns, and loop until the low for either the rows or columns is greater than the high. We then calculate a mid for both the rows and columns, and see if the number at those indexes is our target and return True if it is. If not, we check if that number is less than target, and if it is, we go to another round of checks. For this round of checks, we see if the last number of the row is less than target, because if it is, we know target is not in that row, and we can update our lowRow to be midRow + 1. If it is not, we update our lowCol to be midCol + 1. Now if that initial check does not execute, (the one checking if the number at our middle row and column is less than target), we know the number at our middle indexes is greater than target, so we can run through our series of checks, with everything flipped. This way runs the code in O(log(m*n) and has a space complexity of O(1).
+Idea: The idea here is to implement binary search, but with checks and mid calculations for both the rows and the columns. We do thsi by creating a low and a high for both the rows and the columns, and loop until the low for either the rows or columns is greater than the high. We then calculate a mid for both the rows and columns, and see if the number at those indexes is our target and return True if it is. If not, we check if that number is less than target, and if it is, we go to another round of checks. For this round of checks, we see if the last number of the row is less than target, because if it is, we know target is not in that row, and we can update our lowRow to be midRow + 1. If it is not, we update our lowCol to be midCol + 1. Now if that initial check does not execute, (the one checking if the number at our middle row and column is less than target), we know the number at our middle indexes is greater than target, so we can run through our series of checks, with everything flipped. This way runs the code in O(log(m*n)) and has a space complexity of O(1).
+
+## Single Element In A Sorted Array (Medium)
+
+You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
+Return the single element that appears only once.
+Your solution must run in O(log n) time and O(1) space.
 
 ## Koko Eating Bananas (Medium)
 
