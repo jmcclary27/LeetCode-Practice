@@ -19,6 +19,10 @@ Idea: The idea here is to create an empty node that keeps track of our progress 
 You are given the head of a singly linked list, return true if it is a palindrome or false otherwise.
 A palindrome is a sequence that reads the same forward and backward.
 
+## Remove Linked List Element (Easy)
+
+You are given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+
 ## Linked List Cycle Detection (Easy) 
 
 Given the beginning of a linked list head, return true if there is a cycle in the linked list. Otherwise, return false.
