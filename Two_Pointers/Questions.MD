@@ -65,6 +65,11 @@ Only ids that appear in at least one of the two arrays should be included in the
 Each id should be included only once and its value should be the sum of the values of this id in the two arrays. If the id does not exist in one of the two arrays, then assume its value in that array to be 0.
 Return the resulting array. The returned array must be sorted in ascending order by id.
 
+## Move Zeroes (Easy)
+
+You are given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+Note that you must do this in-place without making a copy of the array.
+
 ## Two Integer Sum II (Medium)
 
 Given an array of integers numbers that is sorted in non-decreasing order.
