@@ -30,6 +30,12 @@ You are given a non-negative integer x, return the square root of x rounded down
 You must not use any built-in exponent function or operator.
 For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 
+## Valid Perfect Square (Easy)
+
+You are given a positive integer num, return true if num is a perfect square or false otherwise.
+A perfect square is an integer that is the square of an integer. In other words, it is the product of some integer with itself.
+You must not use any built-in library function, such as sqrt.
+
 ## Search a 2D Matrix (Medium)
 
 You are given an m x n 2-D integer array matrix and an integer target.
