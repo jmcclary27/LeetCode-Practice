@@ -18,6 +18,10 @@ Idea: The idea here is to use recursive DFS and to keep track of the depth with 
 You are given the root of an n-ary tree, return the postorder traversal of its nodes' values.
 Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
 
+## Convert Sorted Array To Binary Search Tree (Easy)
+
+Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.
+
 ## Diamter of Binary Tree (Easy)
 
 The diameter of a binary tree is defined as the length of the longest path between any two nodes within the tree. The path does not necessarily have to pass through the root.
