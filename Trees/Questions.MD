@@ -13,6 +13,11 @@ The depth of a binary tree is defined as the number of nodes along the longest p
 
 Idea: The idea here is to use recursive DFS and to keep track of the depth with each recursive call. We created two variables, leftDepth and rightDepth, and set them equal to 1 + the function calls for the left child and right child. For our base cases, if root is None return 0, otherwise return the max of leftDepth and rightDepth. This runs in O(n) runtime complexity, since it visits each node once, and it has a space complexity of O(height), which is O(logn) in the best case of a balanced tree, and O(n) in the worst case, which is essentially a linked list.
 
+## N-ary Tree Postorder Traversal (Easy)
+
+You are given the root of an n-ary tree, return the postorder traversal of its nodes' values.
+Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
+
 ## Diamter of Binary Tree (Easy)
 
 The diameter of a binary tree is defined as the length of the longest path between any two nodes within the tree. The path does not necessarily have to pass through the root.
