@@ -81,6 +81,12 @@ void put(int key, int value) inserts a (key, value) pair into the HashMap. If th
 int get(int key) returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key.
 void remove(key) removes the key and its corresponding value if the map contains the mapping for the key.
 
+## Length of Last Word (Easy)
+
+You are given a string s consisting of words and spaces, return the length of the last word in the string.
+A word is a maximal substring consisting of non-space characters only.
+Note: A substring is a contiguous non-empty sequence of characters within a string.
+
 ## Score of A String (Easy)
 
 You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
