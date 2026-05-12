@@ -30,6 +30,11 @@ You are given a non-negative integer x, return the square root of x rounded down
 You must not use any built-in exponent function or operator.
 For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 
+## Arranging Coins (Easy)
+
+You have n coins and you want to build a staircase with these coins. The staircase consists of k rows where the ith row has exactly i coins. The last row of the staircase may be incomplete.
+Return the number of complete rows of the staircase you will build.
+
 ## Valid Perfect Square (Easy)
 
 You are given a positive integer num, return true if num is a perfect square or false otherwise.
