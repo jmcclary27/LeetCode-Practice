@@ -81,6 +81,10 @@ void put(int key, int value) inserts a (key, value) pair into the HashMap. If th
 int get(int key) returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key.
 void remove(key) removes the key and its corresponding value if the map contains the mapping for the key.
 
+## Max Consecutive Ones (Easy)
+
+You are given a binary array nums, return the maximum number of consecutive 1's in the array.
+
 ## Length of Last Word (Easy)
 
 You are given a string s consisting of words and spaces, return the length of the last word in the string.
