@@ -85,6 +85,11 @@ void remove(key) removes the key and its corresponding value if the map contains
 
 You are given a binary array nums, return the maximum number of consecutive 1's in the array.
 
+## Pascal's Triangle (Easy)
+
+You are given an integer numRows, return the first numRows of Pascal's triangle.
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
