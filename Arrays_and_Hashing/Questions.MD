@@ -90,6 +90,16 @@ You are given a binary array nums, return the maximum number of consecutive 1's 
 You are given an integer numRows, return the first numRows of Pascal's triangle.
 In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
 
+## Make The String Great (Easy)
+
+Given a string s of lower and upper case English letters.
+A good string is a string which doesn't have two adjacent characters s[i] and s[i + 1] where:
+0 <= i <= s.length - 2
+s[i] is a lower-case letter and s[i + 1] is the same letter but in upper-case or vice-versa.
+To make the string good, you can choose two adjacent characters that make the string bad and remove them. You can keep doing this until the string becomes good.
+Return the string after making it good. The answer is guaranteed to be unique under the given constraints.
+Notice that an empty string is also good.
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
