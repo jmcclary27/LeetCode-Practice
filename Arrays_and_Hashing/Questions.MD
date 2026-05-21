@@ -100,6 +100,17 @@ To make the string good, you can choose two adjacent characters that make the st
 Return the string after making it good. The answer is guaranteed to be unique under the given constraints.
 Notice that an empty string is also good.
 
+## Unique Email Addresses (Easy)
+
+A valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.
+For example, in "alice@neetcode.io", "alice" is the local name, and "neetcode.io" is the domain name.
+If you add periods '.' between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name. Note that this rule does not apply to domain names.
+For example, "alice.z@neetcode.io" and "alicez@neetcode.io" forward to the same email address.
+If you add a plus '+' in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered. Note that this rule does not apply to domain names.
+For example, "m.y+name@email.com" will be forwarded to "my@email.com".
+It is possible to use both of these rules at the same time.
+You are given an array of strings emails where we send one email to each emails[i], return the number of different addresses that actually receive mails.
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
