@@ -23,6 +23,11 @@ A palindrome is a sequence that reads the same forward and backward.
 
 You are given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
 
+## Middle of Linked List (Easy)
+
+You are given the head of a singly linked list, return the middle node of the linked list.
+If there are two middle nodes, return the second middle node.
+
 ## Remove Duplicates From Sorted Linked List (Easy)
 
 Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
