@@ -55,6 +55,13 @@ Idea: The idea here is to implement binary search, but with checks and mid calcu
 
 You are given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average greater than or equal to threshold.
 
+## Find Peak Element (Medium)
+
+A peak element is an element that is strictly greater than its neighbors.
+You are given a 0-indexed integer array nums, find a peak element, and return its index. If the array contains multiple peaks, return the index to any of the peaks.
+You may imagine that nums[-1] = nums[n] = -∞. In other words, an element is always considered to be strictly greater than a neighbor that is outside the array.
+You must write an algorithm that runs in O(log n) time.
+
 ## Single Element In A Sorted Array (Medium)
 
 You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
