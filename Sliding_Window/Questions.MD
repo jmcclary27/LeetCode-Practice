@@ -12,6 +12,11 @@ Idea: The idea here is to establish two pointers at the first two indexes and lo
 
 You are given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k, otherwise return false.
 
+## Binary Subarrays With Sum (Easy)
+
+You are given a binary array nums and an integer goal, return the number of non-empty subarrays with a sum goal.
+A subarray is a contiguous part of the array.
+
 ## Minimum Recolors to Get K Consecutive Black Blocks (Easy)
 
 You are given a 0-indexed string blocks of length n, where blocks[i] is either 'W' or 'B', representing the color of the ith block. The characters 'W' and 'B' denote the colors white and black, respectively.
