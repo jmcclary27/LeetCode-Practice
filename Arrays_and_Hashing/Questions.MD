@@ -118,6 +118,12 @@ The pivot index is the index where the sum of all the numbers strictly to the le
 If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
 Return the leftmost pivot index. If no such index exists, return -1.
 
+## Maximum Ascending Subarray Sum (Easy)
+
+You are given an array of positive integers nums, return the maximum possible sum of an strictly increasing subarray in nums.
+A subarray is defined as a contiguous sequence of numbers in an array.
+Note: An array is said to be strictly increasing if each element is strictly greater than its previous one (if exists).
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
