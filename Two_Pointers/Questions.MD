@@ -70,6 +70,24 @@ Return the resulting array. The returned array must be sorted in ascending order
 You are given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 Note that you must do this in-place without making a copy of the array.
 
+## Check If Two Strings Are Equivalent (Easy)
+
+Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
+A string is represented by an array if the array elements concatenated in order forms the string.
+Example 1:
+Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
+Output: true
+Explanation:
+word1 represents string "ab" + "c" -> "abc"
+word2 represents string "a" + "bc" -> "abc"
+The strings are the same, so return true.
+Example 2:
+Input: word1 = ["a", "cb"], word2 = ["ab", "c"]
+Output: false
+Example 3:
+Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
+Output: true
+
 ## Two Integer Sum II (Medium)
 
 Given an array of integers numbers that is sorted in non-decreasing order.
