@@ -25,6 +25,11 @@ For example, in the given tree above, the leaf value sequence is (6, 7, 4, 9, 8)
 Two binary trees are considered leaf-similar if their leaf value sequence is the same.
 Return true if and only if the two given trees with head nodes root1 and root2 are leaf-similar.
 
+## Path Sum (Easy)
+
+You are given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+A leaf is a node with no children.
+
 ## Convert Sorted Array To Binary Search Tree (Easy)
 
 Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.
