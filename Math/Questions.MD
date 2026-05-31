@@ -26,6 +26,10 @@ AA -> 27
 AB -> 28 
 ...
 
+## Excel Sheet Column Time (Easy)
+
+You are given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
+
 ## Rotate Image (Medium)
 
 Given a square n x n matrix of integers matrix, rotate it by 90 degrees clockwise.
