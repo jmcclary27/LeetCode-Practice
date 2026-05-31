@@ -124,6 +124,12 @@ You are given an array of positive integers nums, return the maximum possible su
 A subarray is defined as a contiguous sequence of numbers in an array.
 Note: An array is said to be strictly increasing if each element is strictly greater than its previous one (if exists).
 
+## Kth Distinct String In An Array (Easy)
+
+A distinct string is a string that is present only once in an array.
+You are given an array of strings arr, and an integer k, return the k-th distinct string present in arr. If there are fewer than k distinct strings, return an empty string "".
+Note that the strings are considered in the order in which they appear in the array.
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
