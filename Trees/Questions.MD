@@ -30,6 +30,13 @@ Return true if and only if the two given trees with head nodes root1 and root2 a
 You are given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
 A leaf is a node with no children.
 
+## Merge Two Binary Trees (Easy)
+
+You are given two binary trees root1 and root2.
+Imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge the two trees into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of the new tree.
+Return the merged tree.
+Note: The merging process must start from the root nodes of both trees.
+
 ## Convert Sorted Array To Binary Search Tree (Easy)
 
 Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.
