@@ -28,6 +28,11 @@ You are given the head of a linked list and an integer val, remove all the nodes
 You are given the head of a singly linked list, return the middle node of the linked list.
 If there are two middle nodes, return the second middle node.
 
+## Intersection of Two Linked Lists (Easy)
+
+You are given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the two linked lists have no intersection at all, return null.
+Note that the linked lists must retain their original structure after the function returns.
+
 ## Remove Duplicates From Sorted Linked List (Easy)
 
 Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
