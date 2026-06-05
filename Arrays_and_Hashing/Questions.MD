@@ -118,6 +118,11 @@ The pivot index is the index where the sum of all the numbers strictly to the le
 If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
 Return the leftmost pivot index. If no such index exists, return -1.
 
+## Find Missing And Repeated Values (Easy)
+
+You are given a 0-indexed 2D integer matrix grid of size n * n with values in the range [1, (n^2)]. Each integer appears exactly once except a which appears twice and b which is missing. The task is to find the repeating and missing numbers a and b.
+Return a 0-indexed integer array ans of size 2 where ans[0] equals to a and ans[1] equals to b.
+
 ## Maximum Ascending Subarray Sum (Easy)
 
 You are given an array of positive integers nums, return the maximum possible sum of an strictly increasing subarray in nums.
