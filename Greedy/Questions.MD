@@ -17,6 +17,12 @@ Return the amount of money you will have leftover after buying the two chocolate
 Given an array of integers nums, find the subarray with the largest sum and return the sum.
 A subarray is a contiguous non-empty sequence of elements within an array.
 
+## Buildings With An Ocean View (Medium)
+
+You are given an array of integers heights of size n representing a row of buildings, where heights[i] is the height of the ith building.
+There is an ocean located to the far right of the buildings. A building has an ocean view if every building to its right is strictly shorter than it.
+Return a list of indices (0-indexed) of the buildings that have an ocean view, sorted in increasing order.
+
 ## Jump Game (Medium)
 
 You are given an integer array nums where each element nums[i] indicates your maximum jump length at that position.
