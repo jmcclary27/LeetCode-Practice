@@ -100,6 +100,13 @@ Idea: The idea here is to implement an iterative BFS algorithm, but since we nee
 You are given the root node of a binary search tree (BST) and a value val to insert into the tree. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
 Note: There may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
 
+## Cousins In A Binary Tree (Medium)
+
+Given the root of a binary tree, replace the value of each node in the tree with the sum of all its cousins' values.
+Two nodes of a binary tree are cousins if they have the same depth with different parents.
+Return the root of the modified tree.
+Note that the depth of a node is the number of edges in the path from the root node to it.
+
 ## Delete Node in a BST (Medium)
 
 You are given a root node reference of a BST and a key, delete the node with the given key in the BST, if present. Return the root node reference (possibly updated) of the BST.
