@@ -74,6 +74,10 @@ Idea: The idea here is to essentiall create our own subtree, and check if these 
 
 You are given the root of a binary tree, return the inorder traversal of its nodes' values.
 
+## Minimum Distance Between BST Nodes (Easy)
+
+Given the root of a Binary Search Tree (BST), return the minimum difference between the values of any two different nodes in the tree.
+
 ## Range Sum of BST (Easy)
 
 You are given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
