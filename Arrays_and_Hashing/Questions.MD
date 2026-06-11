@@ -123,6 +123,12 @@ Return the leftmost pivot index. If no such index exists, return -1.
 You are given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
 Return any array that satisfies this condition.
 
+## Next Greater Element 1 (Easy)
+
+The next greater element of some element x in an array is the first greater element that is to the right of x in the array.
+You are given two 0-indexed integer arrays nums1 and nums2, where nums1 is a subset of nums2. nums2 contains unique elements.
+For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] in nums2. If there is no next greater element, then the answer for this query is -1.
+
 ## Find Missing And Repeated Values (Easy)
 
 You are given a 0-indexed 2D integer matrix grid of size n * n with values in the range [1, (n^2)]. Each integer appears exactly once except a which appears twice and b which is missing. The task is to find the repeating and missing numbers a and b.
