@@ -59,6 +59,12 @@ You may not modify the values in the list's nodes, but instead you must reorder 
 
 Idea: The idea here is to reverse the second half of the list, so we can then move through the first and second half, connecting them one by one. We first find the halfway point using fast and slow pointers. We then loop from the slow pointer to the end, reversing that half of the linked list. We then connect the first half to the second half by alternating back and forth. This strategy is O(n) runtime and O(1) space.
 
+## Merge In Between Linked Lists (Medium)
+
+You are given two linked lists: list1 and list2 of sizes n and m respectively.
+Remove list1's nodes from the ath node to the bth node, and put list2 in their place.
+The blue edges and nodes in the following figure indicate the result:
+
 ## Remove Nth Node From End of List (Medium)
 
 You are given the beginning of a linked list head, and an integer n.
