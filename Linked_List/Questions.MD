@@ -65,6 +65,13 @@ You are given two linked lists: list1 and list2 of sizes n and m respectively.
 Remove list1's nodes from the ath node to the bth node, and put list2 in their place.
 The blue edges and nodes in the following figure indicate the result:
 
+## Maximum Twin Sum Of A Linked List (Medium)
+
+In a linked list of size n, where n is even, the i-th node (0-indexed) of the linked list is known as the twin of the (n-1-i)-th node, if 0 <= i <= (n / 2) - 1.
+For example, if n = 4, then node 0 is the twin of node 3, and node 1 is the twin of node 2. These are the only nodes with twins for n = 4.
+The twin sum is defined as the sum of a node and its twin.
+You are given the head of a linked list with even length, return the maximum twin sum of the linked list.
+
 ## Remove Nth Node From End of List (Medium)
 
 You are given the beginning of a linked list head, and an integer n.
