@@ -51,6 +51,13 @@ You are given an integer array prices where prices[i] is the price of the ith it
 There is a special discount for items in the shop. If you buy the ith item, then you will receive a discount equivalent to prices[j] where j is the minimum index such that j > i and prices[j] <= prices[i]. Otherwise, you will not receive any discount at all.
 Return an integer array answer where answer[i] is the final price you will pay for the ith item of the shop, considering the special discount.
 
+## Minimum String Length With Removing Substrings (Easy)
+
+You are given a string s consisting only of uppercase English letters.
+You can apply some operations to this string where, in one operation, you can remove any occurrence of one of the substrings "AB" or "CD" from s.
+Return the minimum possible length of the resulting string that you can obtain.
+Note that the string concatenates after removing the substring and could produce new "AB" or "CD" substrings.
+
 ## Implement Queue Using Stacks (Easy)
 
 Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
