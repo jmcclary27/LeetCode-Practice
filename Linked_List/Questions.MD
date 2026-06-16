@@ -72,6 +72,12 @@ For example, if n = 4, then node 0 is the twin of node 3, and node 1 is the twin
 The twin sum is defined as the sum of a node and its twin.
 You are given the head of a linked list with even length, return the maximum twin sum of the linked list.
 
+## Merge Nodes In Between Zeroes (Medium)
+
+You are given the head of a linked list, which contains a series of integers separated by 0's. The beginning and end of the linked list will have Node.val == 0.
+For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.
+Return the head of the modified linked list.
+
 ## Remove Nth Node From End of List (Medium)
 
 You are given the beginning of a linked list head, and an integer n.
