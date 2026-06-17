@@ -78,6 +78,10 @@ You are given the head of a linked list, which contains a series of integers sep
 For every two consecutive 0's, merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes. The modified list should not contain any 0's.
 Return the head of the modified linked list.
 
+## Swap Nodes In Pairs (Medium)
+
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+
 ## Remove Nth Node From End of List (Medium)
 
 You are given the beginning of a linked list head, and an integer n.
