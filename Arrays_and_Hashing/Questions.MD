@@ -134,6 +134,14 @@ An array is monotonic if it is either monotone increasing or monotone decreasing
 An array nums is monotone increasing if for all i <= j, nums[i] <= nums[j]. An array nums is monotone decreasing if for all i <= j, nums[i] >= nums[j].
 You are given an integer array nums, return true if the given array is monotonic, or false otherwise.
 
+## Word Pattern (Easy)
+
+You are given a pattern and a string s, find if s follows the same pattern.
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s. Specifically:
+Each letter in pattern maps to exactly one unique word in s.
+Each unique word in s maps to exactly one letter in pattern.
+No two letters map to the same word, and no two words map to the same letter.
+
 ## Next Greater Element 1 (Easy)
 
 The next greater element of some element x in an array is the first greater element that is to the right of x in the array.
