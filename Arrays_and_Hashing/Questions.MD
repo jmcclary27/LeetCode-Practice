@@ -142,6 +142,11 @@ Each letter in pattern maps to exactly one unique word in s.
 Each unique word in s maps to exactly one letter in pattern.
 No two letters map to the same word, and no two words map to the same letter.
 
+## Number of Group Pairs (Easy)
+
+You are given an array of integers nums, return the number of good pairs.
+A pair (i, j) is called good if nums[i] == nums[j] and i < j.
+
 ## Next Greater Element 1 (Easy)
 
 The next greater element of some element x in an array is the first greater element that is to the right of x in the array.
