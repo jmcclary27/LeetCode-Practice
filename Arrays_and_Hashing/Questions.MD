@@ -147,6 +147,12 @@ No two letters map to the same word, and no two words map to the same letter.
 You are given an array of integers nums, return the number of good pairs.
 A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 
+## Isomorphic Strings (Easy)
+
+You are given two strings s and t, determine if they are isomorphic.
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
 ## Next Greater Element 1 (Easy)
 
 The next greater element of some element x in an array is the first greater element that is to the right of x in the array.
