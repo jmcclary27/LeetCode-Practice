@@ -46,3 +46,8 @@ The solution must not contain duplicate subsets. You may return the solution in 
 ## Permutations (Medium)
 
 You are given an array nums, that might contain duplicates , return all possible unique permutations in any order.
+
+## Letter Tile Possibilities (Medium)
+
+You have n tiles, where each tile has one letter tiles[i] printed on it.
+Return the number of possible non-empty sequences of letters you can make using the letters printed on those tiles.
