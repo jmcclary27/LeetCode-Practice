@@ -58,6 +58,14 @@ You can apply some operations to this string where, in one operation, you can re
 Return the minimum possible length of the resulting string that you can obtain.
 Note that the string concatenates after removing the substring and could produce new "AB" or "CD" substrings.
 
+## Clear Digits (Easy)
+
+You are given a string s.
+Your task is to remove all digits by doing this operation repeatedly:
+Delete the first digit and the closest non-digit character to its left.
+Return the resulting string after removing all digits.
+Note that the operation cannot be performed on a digit that does not have any non-digit character to its left.
+
 ## Implement Queue Using Stacks (Easy)
 
 Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
