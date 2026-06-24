@@ -19,6 +19,14 @@ If x < y, the stone of weight x is destroyed, and the stone of weight y has new 
 Continue the simulation until there is no more than one stone remaining.
 Return the weight of the last remaining stone or return 0 if none remain.
 
+## Take Gifts From the Richest Pile (Easy)
+
+You are given an integer array gifts denoting the number of gifts in various piles. Every second, you do the following:
+Choose the pile with the maximum number of gifts.
+If there is more than one pile with the maximum number of gifts, choose any.
+Reduce the number of gifts in the pile to the floor of the square root of the original number of gifts in the pile.
+Return the number of gifts remaining after k seconds.
+
 ## K Closest Points To Origin (Medium)
 
 You are given an 2-D array points where points[i] = [xi, yi] represents the coordinates of a point on an X-Y axis plane. You are also given an integer k.
