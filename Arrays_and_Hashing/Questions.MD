@@ -147,6 +147,11 @@ No two letters map to the same word, and no two words map to the same letter.
 You are given an array of integers nums, return the number of good pairs.
 A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 
+## Special Array I (Easy)
+
+An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.
+You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
+
 ## Isomorphic Strings (Easy)
 
 You are given two strings s and t, determine if they are isomorphic.
