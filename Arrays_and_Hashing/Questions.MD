@@ -152,6 +152,12 @@ A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.
 You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
 
+## Find Words That Can Be Formed by Characters (Easy)
+
+You are given an array of strings words and a string chars.
+A string is good if it can be formed by characters from chars (each character can only be used once for each word in words).
+Return the sum of lengths of all good strings in words.
+
 ## Isomorphic Strings (Easy)
 
 You are given two strings s and t, determine if they are isomorphic.
