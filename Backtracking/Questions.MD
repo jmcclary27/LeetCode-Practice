@@ -47,6 +47,11 @@ The solution must not contain duplicate subsets. You may return the solution in 
 
 You are given an array nums, that might contain duplicates , return all possible unique permutations in any order.
 
+## Word Search (Medium)
+
+Given a 2-D grid of characters board and a string word, return true if the word is present in the grid, otherwise return false.
+For the word to be present it must be possible to form it with a path in the board with horizontally or vertically neighboring cells. The same cell may not be used more than once in a word.
+
 ## Letter Tile Possibilities (Medium)
 
 You have n tiles, where each tile has one letter tiles[i] printed on it.
