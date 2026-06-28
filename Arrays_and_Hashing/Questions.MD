@@ -152,6 +152,11 @@ A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.
 You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
 
+## Count the Number of Consistent Strings (Easy)
+
+You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
+Return the number of consistent strings in the array words.
+
 ## Find Words That Can Be Formed by Characters (Easy)
 
 You are given an array of strings words and a string chars.
