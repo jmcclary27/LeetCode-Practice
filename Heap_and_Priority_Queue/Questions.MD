@@ -40,6 +40,10 @@ Given an unsorted array of integers nums and an integer k, return the kth larges
 By kth largest element, we mean the kth largest element in the sorted order, not the kth distinct element.
 Follow-up: Can you solve it without sorting?
 
+## Least Number of Unique Integers After K Removals
+
+Given an array of integers arr and an integer k. Find the least number of unique integers after removing exactly k elements.
+
 ## Single Threaded CPU (Medium)
 
 You are given n tasks labeled from 0 to n - 1 represented by a 2D integer array tasks, where tasks[i] = [enqueueTimei, processingTimei] means that the ith task will be available to process at enqueueTime[i] and will take processingTime[i] to finish processing.
