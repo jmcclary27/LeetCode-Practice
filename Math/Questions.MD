@@ -13,6 +13,11 @@ Given a positive integer n, return true if it is a non-cyclical number, otherwis
 You are given an integer array digits, where each digits[i] is the ith digit of a large integer. It is ordered from most significant to least significant digit, and it will not contain any leading zero.
 Return the digits of the given integer after incrementing it by one.
 
+## Greatest Common Divisors Of Strings (Easy)
+
+For two strings s and t, we say "t divides s" if and only if s = t + t + t + ... + t + t (i.e., t is concatenated with itself one or more times).
+You are given two strings str1 and str2, return the largest string x such that x divides both str1 and str2. If there is no such string, return "".
+
 ## Excel Sheet Column Number (Easy)
 
 Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
