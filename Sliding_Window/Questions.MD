@@ -71,6 +71,11 @@ You are given two strings s1 and s2.
 Return true if s2 contains a permutation of s1, or false otherwise. That means if a permutation of s1 exists as a substring of s2, then return true.
 Both strings only contain lowercase letters.
 
+## Count Number of Nice Subarrays (Medium)
+
+Given an array of integers nums and an integer k. A continuous subarray is called nice if there are k odd numbers on it.
+Return the number of nice sub-arrays.
+
 ## Longest Repeating Character Replacement (Medium)
 
 You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
