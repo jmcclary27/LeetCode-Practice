@@ -102,6 +102,12 @@ Return an integer denoting the number of index pairs (i, j) such that i < j, and
 
 You are given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
 
+## Counting Words With a Given Prefix (Easy)
+
+You are given an array of strings words and a string pref.
+Return the number of strings in words that contain pref as a prefix.
+A prefix of a string s is any leading contiguous substring of s.
+
 ## Binary Tree Preorder Traversal (Easy)
 
 You are given the root of a binary tree, return the preorder traversal of its nodes' values.
