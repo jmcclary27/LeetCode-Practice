@@ -70,6 +70,10 @@ Return the resulting array. The returned array must be sorted in ascending order
 You are given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 Note that you must do this in-place without making a copy of the array.
 
+## Reverse Words In A String III (Easy)
+
+Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
 ## Check If Two Strings Are Equivalent (Easy)
 
 Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.
