@@ -22,6 +22,11 @@ You are given two strings str1 and str2, return the largest string x such that x
 
 You are given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).
 
+## Matrix Diagonal Sum (Easy)
+
+You are given a square matrix mat, return the sum of the matrix diagonals.
+Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
+
 ## Excel Sheet Column Number (Easy)
 
 Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
