@@ -22,6 +22,11 @@ You are given two strings str1 and str2, return the largest string x such that x
 
 You are given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).
 
+## Largest Odd Number In String (Easy)
+
+You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a non-empty substring of num, or an empty string "" if no odd integer exists.
+A substring is a contiguous sequence of characters within a string.
+
 ## Calculate Money In Leetcode Bank (Easy)
 
 Hercy wants to save money for his first car. He puts money in the Leetcode bank every day.
