@@ -27,6 +27,11 @@ You are given two non-negative integers low and high. Return the count of odd nu
 You are given a string num, representing a large integer. Return the largest-valued odd integer (as a string) that is a non-empty substring of num, or an empty string "" if no odd integer exists.
 A substring is a contiguous sequence of characters within a string.
 
+## Transpose Matrix (Easy)
+
+You are given a 2D integer array matrix, return the transpose of matrix.
+The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
+
 ## Calculate Money In Leetcode Bank (Easy)
 
 Hercy wants to save money for his first car. He puts money in the Leetcode bank every day.
