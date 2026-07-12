@@ -32,6 +32,10 @@ A substring is a contiguous sequence of characters within a string.
 You are given a 2D integer array matrix, return the transpose of matrix.
 The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
 
+## Image Smoother (Easy)
+
+An image smoother is a filter of the size 3 x 3 that can be applied to each cell of an image by rounding down the average of the cell and the eight surrounding cells (i.e., the average of the nine cells in the blue smoother). If one or more of the surrounding cells of a cell is not present, we do not consider it in the average (i.e., the average of the four cells in the red smoother).
+
 ## Calculate Money In Leetcode Bank (Easy)
 
 Hercy wants to save money for his first car. He puts money in the Leetcode bank every day.
