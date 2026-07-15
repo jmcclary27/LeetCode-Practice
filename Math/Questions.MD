@@ -32,6 +32,13 @@ A substring is a contiguous sequence of characters within a string.
 You are given a 2D integer array matrix, return the transpose of matrix.
 The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
 
+## Count of Matches in Tournament (Easy)
+
+You are given an integer n, the number of teams in a tournament that has strange rules:
+If the current number of teams is even, each team gets paired with another team. A total of n / 2 matches are played, and n / 2 teams advance to the next round.
+If the current number of teams is odd, one team randomly advances in the tournament, and the rest gets paired. A total of (n - 1) / 2 matches are played, and (n - 1) / 2 + 1 teams advance to the next round.
+Return the number of matches played in the tournament until a winner is decided.
+
 ## Image Smoother (Easy)
 
 An image smoother is a filter of the size 3 x 3 that can be applied to each cell of an image by rounding down the average of the cell and the eight surrounding cells (i.e., the average of the nine cells in the blue smoother). If one or more of the surrounding cells of a cell is not present, we do not consider it in the average (i.e., the average of the four cells in the red smoother).
