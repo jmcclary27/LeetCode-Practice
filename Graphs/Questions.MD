@@ -35,6 +35,13 @@ Note that you only take a snake or ladder at most once per dice roll. If the des
 For example, suppose the board is [[-1,4],[-1,3]], and on the first move, your destination square is 2. You follow the ladder to square 3, but do not follow the subsequent ladder to 4.
 Return the least number of dice rolls required to reach the square n2. If it is not possible to reach the square, return -1.
 
+## Shortest Bridge (Medium)
+
+You are given an n x n binary matrix grid where 1 represents land and 0 represents water.
+An island is a 4-directionally connected group of 1's not connected to any other 1's. There are exactly two islands in grid.
+You may change 0's to 1's to connect the two islands to form one island.
+Return the minimum number of 0's you must flip to connect the two islands.
+
 ## Find The Town Judge (Medium)
 
 In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
