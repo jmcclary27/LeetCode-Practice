@@ -81,6 +81,10 @@ Return the number of nice sub-arrays.
 You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
 After performing at most k replacements, return the length of the longest substring which contains only one distinct character.
 
+## Subarray Product Less Than K (Medium)
+
+You are given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k.
+
 ## Minimum Window Substring (Hard)
 
 Given two strings s and t, return the shortest substring of s such that every character in t, including duplicates, is present in the substring. If such a substring does not exist, return an empty string "".
