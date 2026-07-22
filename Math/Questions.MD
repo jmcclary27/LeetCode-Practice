@@ -38,6 +38,11 @@ There are numBottles water bottles that are initially full of water. You can exc
 The operation of drinking a full water bottle turns it into an empty bottle.
 Given the two integers numBottles and numExchange, return the maximum number of water bottles you can drink.
 
+## Power Of 4 (Easy)
+
+Given an integer n, return true if it is a power of four. Otherwise, return false.
+An integer n is a power of four, if there exists an integer x such that n == 4x.
+
 ## Largest Local Values In A Matrix (Easy)
 
 You are given an n x n integer matrix grid.
