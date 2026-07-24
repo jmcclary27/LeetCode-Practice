@@ -90,6 +90,10 @@ Each function should run in O(1) time.
 
 Idea: This question is essentially asking the coder to make a simple stack class. This seems relatively easy at first, however, we are asked to make ALL the functions in constant time. It is intuitive on getMin() to just loop through the stack to find the minimum element, but that does not follow our constant time constraint. The idea I am going with here is to have two stacks. One stack is the normal stack that we will do everything to, and the other stack is a minimum stack, with the values being the minimum value at each point of the regular stack. The idea here is for each time we push an element, we also push the minimum between the end of the minStack and the actual element we are pushing. When we pop the stack, we also pop the minStack. This idea gives us an O(n) space complexity with a O(1) runtime.
 
+## Remove K Digits (Medium)
+
+Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
+
 ## Simplify Path (Medium)
 
 You are given an absolute path for a Unix-style file system, which always begins with a slash '/'. Your task is to transform this absolute path into its simplified canonical path.
