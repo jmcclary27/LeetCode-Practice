@@ -152,6 +152,16 @@ A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.
 You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
 
+## Largest 3-Digit-Number In String (Easy)
+
+You are given a string num representing a large integer. An integer is good if it meets the following conditions:
+It is a substring of num with length 3.
+It consists of only one unique digit.
+Return the maximum good integer as a string or an empty string "" if no such integer exists.
+Note:
+A substring is a contiguous sequence of characters within a string.
+There may be leading zeroes in num or a good integer.
+
 ## Count the Number of Consistent Strings (Easy)
 
 You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.
