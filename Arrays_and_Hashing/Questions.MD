@@ -152,6 +152,14 @@ A pair (i, j) is called good if nums[i] == nums[j] and i < j.
 An array is considered special if the parity of every pair of adjacent elements is different. In other words, one element in each pair must be even, and the other must be odd.
 You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
 
+## Range Sum Query Immutable (Easy)
+
+You are given an integer array nums, handle multiple queries of the following type:
+Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
+Implement the NumArray class:
+NumArray(int[] nums) Initializes the object with the integer array nums.
+int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
+
 ## Largest 3-Digit-Number In String (Easy)
 
 You are given a string num representing a large integer. An integer is good if it meets the following conditions:
