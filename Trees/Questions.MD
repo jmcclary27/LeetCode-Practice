@@ -129,6 +129,18 @@ Given a binary tree root, return the level order traversal of it as a nested lis
 
 Idea: The idea here is to implement an iterative BFS algorithm, but since we need to keep track of levels, we will use a queue of queues, with the inner queues being separated by their levels. Each time we reach a node, we append its value to our resulting list, and we enqueue its children to the second queue (the last queue) of our outer queue. When the queue we are on is empty, we remove it from the outer queue and add another to both our queue and list. When both the queue we are on and the following queue are empty, we have reached the end of the tree, so we can return our results. This runs in O(n) for both runtime and space complexity.
 
+## Populating Next Right Pointers In Each Node (Medium)
+
+You are given a perfect binary tree where all leaves are on the same level, and every parent has two children. The binary tree has the following definition:
+struct Node {
+  int val;
+  Node *left;
+  Node *right;
+  Node *next;
+}
+Populate each next pointer to point to its next right node. If there is no next right node, the next pointer should be set to NULL.
+Initially, all next pointers are set to NULL.
+
 ## Insert Into A Binary Search Tree (Medium)
 
 You are given the root node of a binary search tree (BST) and a value val to insert into the tree. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
