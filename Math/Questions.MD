@@ -43,6 +43,11 @@ Given the two integers numBottles and numExchange, return the maximum number of 
 Given an integer n, return true if it is a power of four. Otherwise, return false.
 An integer n is a power of four, if there exists an integer x such that n == 4x.
 
+## Lucky Numbers In A Matrix (Easy)
+
+Given an m x n matrix of distinct numbers, return all lucky numbers in the matrix in any order.
+A lucky number is an element of the matrix such that it is the minimum element in its row and maximum in its column.
+
 ## Largest Local Values In A Matrix (Easy)
 
 You are given an n x n integer matrix grid.
