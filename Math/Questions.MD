@@ -43,6 +43,11 @@ Given the two integers numBottles and numExchange, return the maximum number of 
 Given an integer n, return true if it is a power of four. Otherwise, return false.
 An integer n is a power of four, if there exists an integer x such that n == 4x.
 
+## Ugly Number (Easy)
+
+An ugly number is a positive integer which does not have a prime factor other than 2, 3, and 5.
+You are given an integer n, return true if n is an ugly number.
+
 ## Lucky Numbers In A Matrix (Easy)
 
 Given an m x n matrix of distinct numbers, return all lucky numbers in the matrix in any order.
