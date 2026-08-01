@@ -47,6 +47,15 @@ An integer n is a power of four, if there exists an integer x such that n == 4x.
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
+## Shift 2D Grid (Easy)
+
+Given a 2D grid of size m x n and an integer k. You need to shift the grid k times.
+In one shift operation:
+Element at grid[i][j] moves to grid[i][j + 1].
+Element at grid[i][n - 1] moves to grid[i + 1][0].
+Element at grid[m - 1][n - 1] moves to grid[0][0].
+Return the 2D grid after applying shift operation k times.
+
 ## Ugly Number (Easy)
 
 An ugly number is a positive integer which does not have a prime factor other than 2, 3, and 5.
