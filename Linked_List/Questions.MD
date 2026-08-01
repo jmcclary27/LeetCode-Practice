@@ -82,6 +82,12 @@ Return the head of the modified linked list.
 
 Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
 
+## Find The Duplicate Number (Medium)
+
+You are given an array of integers nums containing n + 1 integers. Each integer in nums is in the range [1, n] inclusive.
+There is exactly one repeated integer in nums, and every other integer appears at most once.
+Return the repeated integer.
+
 ## Partition List (Medium)
 
 Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
