@@ -120,6 +120,11 @@ Idea: Create two pointers at the beginning and end of the array, and loop until 
 
 You are given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
+## Number of Subsequences That Satisfy The Given Sum Conidition (Medium)
+
+You are given an array of integers nums and an integer target.
+Return the number of non-empty subsequences of nums such that the sum of the minimum and maximum element on it is less or equal to target. Since the answer may be too large, return it modulo (10^9) + 7.
+
 ## 3Sum (Medium)
 
 Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] where nums[i] + nums[j] + nums[k] == 0, and the indices i, j and k are all distinct.
