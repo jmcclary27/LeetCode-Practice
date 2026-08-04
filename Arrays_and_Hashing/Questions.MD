@@ -160,6 +160,11 @@ Implement the NumArray class:
 NumArray(int[] nums) Initializes the object with the integer array nums.
 int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
 
+## Maximum Number Of Balloons (Easy)
+
+You are given a string text, you want to use the characters of text to form as many instances of the word "balloon" as possible.
+You can use each character in text at most once. Return the maximum number of instances that can be formed.
+
 ## Largest 3-Digit-Number In String (Easy)
 
 You are given a string num representing a large integer. An integer is good if it meets the following conditions:
