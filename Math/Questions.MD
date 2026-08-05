@@ -123,3 +123,7 @@ You are given an integer columnNumber, return its corresponding column title as 
 
 Given a square n x n matrix of integers matrix, rotate it by 90 degrees clockwise.
 You must rotate the matrix in-place. Do not allocate another 2D matrix and do the rotation.
+
+## Spiral Matrix (Medium)
+
+Given an m x n matrix of integers matrix, return a list of all elements within the matrix in spiral order.
