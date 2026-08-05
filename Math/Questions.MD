@@ -47,6 +47,12 @@ An integer n is a power of four, if there exists an integer x such that n == 4x.
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 
+## Widest Area Between Two Points Containing No Points (Easy)
+
+Given n points on a 2D plane where points[i] = [xi, yi], Return the widest vertical area between two points such that no points are inside the area.
+A vertical area is an area of fixed-width extending infinitely along the y-axis (i.e., infinite height). The widest vertical area is the one with the maximum width.
+Note that points on the edge of a vertical area are not considered included in the area.
+
 ## Shift 2D Grid (Easy)
 
 Given a 2D grid of size m x n and an integer k. You need to shift the grid k times.
