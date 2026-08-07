@@ -81,6 +81,11 @@ Return the number of nice sub-arrays.
 You are given a string s consisting of only uppercase english characters and an integer k. You can choose up to k characters of the string and replace them with any other uppercase English character.
 After performing at most k replacements, return the length of the longest substring which contains only one distinct character.
 
+## Minimum Operations To Reduce X To 0 (Medium)
+
+You are given an integer array nums and an integer x. In one operation, you can either remove the leftmost or the rightmost element from the array nums and subtract its value from x. Note that this modifies the array for future operations.
+Return the minimum number of operations to reduce x to exactly 0 if it is possible, otherwise, return -1.
+
 ## Subarray Product Less Than K (Medium)
 
 You are given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k.
