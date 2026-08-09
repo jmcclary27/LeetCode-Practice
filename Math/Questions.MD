@@ -128,6 +128,10 @@ You must rotate the matrix in-place. Do not allocate another 2D matrix and do th
 
 Given an m x n matrix of integers matrix, return a list of all elements within the matrix in spiral order.
 
+## Spiral Matrix II (Medium)
+
+You are given a positive integer n, generate an n x n matrix filled with elements from 1 to (n^2) in spiral order.
+
 ## Detect Squares (Medium)
 
 You are given a stream of points consisting of x-y coordinates on a 2-D plane. Points can be added and queried as follows:
