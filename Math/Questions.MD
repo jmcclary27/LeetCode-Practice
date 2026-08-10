@@ -132,6 +132,12 @@ Given an m x n matrix of integers matrix, return a list of all elements within t
 
 You are given a positive integer n, generate an n x n matrix filled with elements from 1 to (n^2) in spiral order.
 
+## Spiral Matrix III (Medium)
+
+You start at the cell (rStart, cStart) of an rows x cols grid facing east. The northwest corner is at the first row and column in the grid, and the southeast corner is at the last row and column.
+You will walk in a clockwise spiral shape to visit every position in this grid. Whenever you move outside the grid's boundary, we continue our walk outside the grid (but may return to the grid boundary later.). Eventually, we reach all rows * cols spaces of the grid.
+Return an array of coordinates representing the positions of the grid in the order you visited them.
+
 ## Detect Squares (Medium)
 
 You are given a stream of points consisting of x-y coordinates on a 2-D plane. Points can be added and queried as follows:
