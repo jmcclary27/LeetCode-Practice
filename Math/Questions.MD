@@ -138,6 +138,13 @@ You start at the cell (rStart, cStart) of an rows x cols grid facing east. The n
 You will walk in a clockwise spiral shape to visit every position in this grid. Whenever you move outside the grid's boundary, we continue our walk outside the grid (but may return to the grid boundary later.). Eventually, we reach all rows * cols spaces of the grid.
 Return an array of coordinates representing the positions of the grid in the order you visited them.
 
+## Spiral Matrix IV (Medium)
+
+You are given two integers m and n, which represent the dimensions of a matrix.
+You are also given the head of a linked list of integers.
+Generate an m x n matrix that contains the integers in the linked list presented in spiral order (clockwise), starting from the top-left of the matrix. If there are remaining empty spaces, fill them with -1.
+Return the generated matrix.
+
 ## Detect Squares (Medium)
 
 You are given a stream of points consisting of x-y coordinates on a 2-D plane. Points can be added and queried as follows:
