@@ -145,6 +145,10 @@ You are also given the head of a linked list of integers.
 Generate an m x n matrix that contains the integers in the linked list presented in spiral order (clockwise), starting from the top-left of the matrix. If there are remaining empty spaces, fill them with -1.
 Return the generated matrix.
 
+## Sum of Square Numbers (Medium)
+
+Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
+
 ## Detect Squares (Medium)
 
 You are given a stream of points consisting of x-y coordinates on a 2-D plane. Points can be added and queried as follows:
