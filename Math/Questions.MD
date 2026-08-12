@@ -149,6 +149,10 @@ Return the generated matrix.
 
 Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
 
+## Minimum Time Difference (Medium)
+
+Given a list of 24-hour clock time points in "HH:MM" format, return the minimum minutes difference between any two time-points in the list.
+
 ## Detect Squares (Medium)
 
 You are given a stream of points consisting of x-y coordinates on a 2-D plane. Points can be added and queried as follows:
