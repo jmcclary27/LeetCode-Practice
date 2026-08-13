@@ -86,6 +86,15 @@ After performing at most k replacements, return the length of the longest substr
 You are given an integer array nums and an integer x. In one operation, you can either remove the leftmost or the rightmost element from the array nums and subtract its value from x. Note that this modifies the array for future operations.
 Return the minimum number of operations to reduce x to exactly 0 if it is possible, otherwise, return -1.
 
+## Alternating Groups II (Medium)
+
+There is a circle of red and blue tiles. You are given an array of integers colors and an integer k. The color of tile i is represented by colors[i]:
+colors[i] == 0 means that tile i is red.
+colors[i] == 1 means that tile i is blue.
+An alternating group is every k contiguous tiles in the circle with alternating colors (each tile in the group except the first and last one has a different color from its left and right tiles).
+Return the number of alternating groups.
+Note that since colors represents a circle, the first and the last tiles are considered to be next to each other.
+
 ## Subarray Product Less Than K (Medium)
 
 You are given an array of integers nums and an integer k, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than k.
