@@ -146,6 +146,14 @@ Initially, all next pointers are set to NULL.
 You are given the root node of a binary search tree (BST) and a value val to insert into the tree. Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
 Note: There may exist multiple valid ways for the insertion, as long as the tree remains a BST after insertion. You can return any of them.
 
+## Create Binary Tree From Descriptions (Medium)
+
+You are given a 2D integer array descriptions where descriptions[i] = [parenti, childi, isLefti] indicates that parenti is the parent of childi in a binary tree of unique values. Furthermore,
+If isLefti == 1, then childi is the left child of parenti.
+If isLefti == 0, then childi is the right child of parenti.
+Construct the binary tree described by descriptions and return its root.
+The test cases will be generated such that the binary tree is valid.
+
 ## Cousins In A Binary Tree (Medium)
 
 Given the root of a binary tree, replace the value of each node in the tree with the sum of all its cousins' values.
