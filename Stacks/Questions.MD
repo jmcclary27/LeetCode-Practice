@@ -94,6 +94,12 @@ Idea: This question is essentially asking the coder to make a simple stack class
 
 Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 
+## Remove All Adjacent Duplicate Strings II (Medium)
+
+You are given a string s and an integer k, a k duplicate removal consists of choosing k adjacent and equal letters from s and removing them, causing the left and the right side of the deleted substring to concatenate together.
+We repeatedly make k duplicate removals on s until we no longer can.
+Return the final string after all such duplicate removals have been made. It is guaranteed that the answer is unique.
+
 ## Simplify Path (Medium)
 
 You are given an absolute path for a Unix-style file system, which always begins with a slash '/'. Your task is to transform this absolute path into its simplified canonical path.
