@@ -153,6 +153,12 @@ Given a non-negative integer c, decide whether there're two integers a and b suc
 
 Given a list of 24-hour clock time points in "HH:MM" format, return the minimum minutes difference between any two time-points in the list.
 
+## Set Matrix Zeroes (Medium)
+
+Given an m x n matrix of integers matrix, if an element is 0, set its entire row and column to 0's.
+You must update the matrix in-place.
+Follow up: Could you solve it using O(1) space?
+
 ## Detect Squares (Medium)
 
 You are given a stream of points consisting of x-y coordinates on a 2-D plane. Points can be added and queried as follows:
