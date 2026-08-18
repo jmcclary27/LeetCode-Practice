@@ -11,6 +11,13 @@ Given an array of intervals where intervals[i] = [start_i, end_i], merge all ove
 You may return the answer in any order.
 Note: Intervals are non-overlapping if they have no common point. For example, [1, 2] and [3, 4] are non-overlapping, but [1, 2] and [2, 3] are overlapping.
 
+## Divide Intervals Into Minimum Number of Groups (Medium)
+
+You are given a 2D integer array intervals where intervals[i] = [lefti, righti] represents the inclusive interval [lefti, righti].
+You have to divide the intervals into one or more groups such that each interval is in exactly one group, and no two intervals that are in the same group intersect each other.
+Return the minimum number of groups you need to make.
+Two intervals intersect if there is at least one common number between them. For example, the intervals [1, 5] and [5, 8] intersect.
+
 ## Insert Interval (Medium)
 
 You are given an array of non-overlapping intervals intervals where intervals[i] = [start_i, end_i] represents the start and the end time of the ith interval. intervals is initially sorted in ascending order by start_i.
