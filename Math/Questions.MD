@@ -171,6 +171,13 @@ The box is rotated 90 degrees clockwise, causing some of the stones to fall due 
 It is guaranteed that each stone in boxGrid rests on an obstacle, another stone, or the bottom of the box.
 Return an n x m matrix representing the box after the rotation described above.
 
+## Find The Punishment Number of An Integer (Medium)
+
+Given a positive integer n, return the punishment number of n.
+The punishment number of n is defined as the sum of the squares of all integers i such that:
+1 <= i <= n
+The decimal representation of i * i can be partitioned into contiguous substrings such that the sum of the integer values of these substrings equals i.
+
 ## Set Matrix Zeroes (Medium)
 
 Given an m x n matrix of integers matrix, if an element is 0, set its entire row and column to 0's.
