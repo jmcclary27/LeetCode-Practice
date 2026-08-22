@@ -178,6 +178,20 @@ The punishment number of n is defined as the sum of the squares of all integers 
 1 <= i <= n
 The decimal representation of i * i can be partitioned into contiguous substrings such that the sum of the integer values of these substrings equals i.
 
+## Robot Bounded In A Circle (Medium)
+
+On an infinite plane, a robot initially stands at (0, 0) and faces north. Note that:
+The north direction is the positive direction of the y-axis.
+The south direction is the negative direction of the y-axis.
+The east direction is the positive direction of the x-axis.
+The west direction is the negative direction of the x-axis.
+The robot can receive one of three instructions:
+"G": go straight 1 unit.
+"L": turn 90 degrees to the left (i.e., anti-clockwise direction).
+"R": turn 90 degrees to the right (i.e., clockwise direction).
+The robot performs the instructions given in order, and repeats them forever.
+Return true if and only if there exists a circle in the plane such that the robot never leaves the circle.
+
 ## Set Matrix Zeroes (Medium)
 
 Given an m x n matrix of integers matrix, if an element is 0, set its entire row and column to 0's.
