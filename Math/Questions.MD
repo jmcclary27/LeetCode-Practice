@@ -192,6 +192,12 @@ The robot can receive one of three instructions:
 The robot performs the instructions given in order, and repeats them forever.
 Return true if and only if there exists a circle in the plane such that the robot never leaves the circle.
 
+## Minimum Operations To Make A Uni-Value Grid (Medium)
+
+You are given a 2D integer grid of size m x n and an integer x. In one operation, you can add x to or subtract x from any element in the grid.
+A uni-value grid is a grid where all the elements of it are equal.
+Return the minimum number of operations to make the grid uni-value. If it is not possible, return -1.
+
 ## Set Matrix Zeroes (Medium)
 
 Given an m x n matrix of integers matrix, if an element is 0, set its entire row and column to 0's.
