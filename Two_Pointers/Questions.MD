@@ -116,6 +116,12 @@ Your solution must use O(1) additional space.
 
 Idea: Create two pointers at the beginning and end of the array, and loop until the two indexs meet. Check if the numbers at those indexes add to target, if they do, return a list of those indexes plus one. Since the array is sorted, if the sum is less than target, we just increment our first pointer, and if it is greater, we decrement our second pointer. With this method, we solve the problem in O(n) runtime complexity and O(1) space complexity.
 
+## Array With Elements Not Equal To Average Of Neighbors (Medium)
+
+You are given a 0-indexed array nums of distinct integers. You want to rearrange the elements in the array such that every element in the rearranged array is not equal to the average of its neighbors.
+More formally, the rearranged array should have the property such that for every i in the range 1 <= i < nums.length - 1, (nums[i-1] + nums[i+1]) / 2 is not equal to nums[i].
+Return any rearrangement of nums that meets the requirements.
+
 ## Rotate Array (Medium)
 
 You are given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
