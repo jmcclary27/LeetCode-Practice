@@ -94,6 +94,16 @@ Idea: This question is essentially asking the coder to make a simple stack class
 
 Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 
+## Minimum Add To Make Valid Parenthesis (Medium)
+
+A parentheses string is valid if and only if:
+It is the empty string,
+It can be written as AB (A concatenated with B), where A and B are valid strings, or
+It can be written as (A), where A is a valid string.
+You are given a parentheses string s. In one move, you can insert a parenthesis at any position of the string.
+For example, if s = "()))", you can insert an opening parenthesis to be "(()))" or a closing parenthesis to be "())))".
+Return the minimum number of moves required to make s valid.
+
 ## Remove All Adjacent Duplicate Strings II (Medium)
 
 You are given a string s and an integer k, a k duplicate removal consists of choosing k adjacent and equal letters from s and removing them, causing the left and the right side of the deleted substring to concatenate together.
