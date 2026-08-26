@@ -44,6 +44,15 @@ i + j < nums.length
 You are initially positioned at nums[0].
 Return the minimum number of jumps to reach the last position in the array (index nums.length - 1). You may assume there is always a valid answer.
 
+## Minimum Length Of Strings After Operations (Medium)
+
+You are given a string s.
+You can perform the following process on s any number of times:
+Choose an index i in the string such that there is at least one character to the left of index i that is equal to s[i], and at least one character to the right that is also equal to s[i].
+Delete the closest occurrence of s[i] located to the left of i.
+Delete the closest occurrence of s[i] located to the right of i.
+Return the minimum length of the final string s that you can achieve.
+
 ## Gas Station (Medium)
 
 There are n gas stations along a circular route. You are given two integer arrays gas and cost where:
