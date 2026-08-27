@@ -47,6 +47,10 @@ A substring is a contiguous sequence of characters within a string.
 
 Idea: The idea here is to create a set for each letter in the string. We loop through the entire string and if the letter at the index of our second pointer is in the character set, we have found a duplicate and remove everything from the set one by one, all while incrementing l. We then find how many times l was incremented (which is the length of the substring) and see if it is greater than our current max length. After looping through every letter, we return the max length of substring in O(n) time and O(m) space, where m is the number of unique characters.
 
+## Max Consecutive Ones III (Medium)
+
+You are given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
+
 ## Grumpy Bookstore Owner (Medium)
 
 There is a bookstore owner that has a store open for n minutes. You are given an integer array customers of length n where customers[i] is the number of the customers that enter the store at the start of the ith minute and all those customers leave after the end of that minute.
