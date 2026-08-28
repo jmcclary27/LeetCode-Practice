@@ -20,6 +20,13 @@ You are given an integer array prices representing the prices of various chocola
 You must buy exactly two chocolates in such a way that you still have some non-negative leftover money. You would like to minimize the sum of the prices of the two chocolates you buy.
 Return the amount of money you will have leftover after buying the two chocolates. If there is no way for you to buy two chocolates without ending up in debt, return money. Note that the leftover must be non-negative.
 
+## Maximum Odd Binary Number (Medium)
+
+You are given a binary string s that contains at least one '1'.
+You have to rearrange the bits in such a way that the resulting binary number is the maximum odd binary number that can be created from this combination.
+Return a string representing the maximum odd binary number that can be created from the given combination.
+Note that the resulting string can have leading zeros.
+
 ## Maximum Subarray (Medium)
 
 Given an array of integers nums, find the subarray with the largest sum and return the sum.
