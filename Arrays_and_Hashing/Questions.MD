@@ -160,6 +160,11 @@ Implement the NumArray class:
 NumArray(int[] nums) Initializes the object with the integer array nums.
 int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
 
+## Destination City (Easy)
+
+You are given the array paths, where paths[i] = [cityAi, cityBi] means there exists a direct path going from cityAi to cityBi. Return the destination city, that is, the city without any path outgoing to another city.
+It is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly one destination city.
+
 ## Maximum Number Of Balloons (Easy)
 
 You are given a string text, you want to use the characters of text to form as many instances of the word "balloon" as possible.
