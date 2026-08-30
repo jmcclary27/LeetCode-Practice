@@ -94,6 +94,11 @@ Idea: This question is essentially asking the coder to make a simple stack class
 
 Given string num representing a non-negative integer num, and an integer k, return the smallest possible integer after removing k digits from num.
 
+## Maximum Width Ramp (Medium)
+
+A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.
+Given an integer array nums, return the maximum width of a ramp in nums. If there is no ramp in nums, return 0.
+
 ## Minimum Add To Make Valid Parenthesis (Medium)
 
 A parentheses string is valid if and only if:
