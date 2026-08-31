@@ -99,6 +99,15 @@ Given string num representing a non-negative integer num, and an integer k, retu
 A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.
 Given an integer array nums, return the maximum width of a ramp in nums. If there is no ramp in nums, return 0.
 
+## Max Frequency In Stack (Medium)
+
+Design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack.
+Implement the FreqStack class:
+FreqStack() constructs an empty frequency stack.
+void push(int val) pushes an integer val onto the top of the stack.
+int pop() removes and returns the most frequent element in the stack.
+If there is a tie for the most frequent element, the element closest to the stack's top is removed and returned.
+
 ## Minimum Add To Make Valid Parenthesis (Medium)
 
 A parentheses string is valid if and only if:
