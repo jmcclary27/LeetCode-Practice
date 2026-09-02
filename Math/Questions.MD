@@ -102,6 +102,15 @@ Given n, return the total amount of money he will have in the Leetcode bank at t
 You are given a square matrix mat, return the sum of the matrix diagonals.
 Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
 
+## Construct Uniform Parity Array I (Easy)
+
+You are given an array nums1 of n distinct integers.
+You want to construct another array nums2 of length n such that the elements in nums2 are either all odd or all even.
+For each index i, you must choose exactly one of the following (in any order):
+nums2[i] = nums1[i]
+nums2[i] = nums1[i] - nums1[j], for an index j != i
+Return true if it is possible to construct such an array, otherwise, return false.
+
 ## Excel Sheet Column Number (Easy)
 
 Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.
