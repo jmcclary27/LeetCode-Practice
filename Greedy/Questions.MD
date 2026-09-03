@@ -27,6 +27,12 @@ You have to rearrange the bits in such a way that the resulting binary number is
 Return a string representing the maximum odd binary number that can be created from the given combination.
 Note that the resulting string can have leading zeros.
 
+## Maximum Sum Circular Subarray (Medium)
+
+You are given a circular integer array nums of length n, return the maximum possible sum of a non-empty subarray of nums.
+A circular array means the end of the array connects to the beginning of the array. Formally, the next element of nums[i] is nums[(i + 1) % n] and the previous element of nums[i] is nums[(i - 1 + n) % n].
+A subarray may only include each element of the fixed buffer nums at most once. Formally, for a subarray nums[i], nums[i + 1], ..., nums[j], there does not exist i <= k1, k2 <= j with k1 % n == k2 % n.
+
 ## Maximum Subarray (Medium)
 
 Given an array of integers nums, find the subarray with the largest sum and return the sum.
