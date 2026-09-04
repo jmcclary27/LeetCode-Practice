@@ -141,6 +141,13 @@ Given an m x n matrix of integers matrix, return a list of all elements within t
 
 You are given a positive integer n, generate an n x n matrix filled with elements from 1 to (n^2) in spiral order.
 
+## Insert Greatest Common Divisors In Linked List (Medium)
+
+You are given the head of a linked list head, in which each node contains an integer value.
+Between every pair of adjacent nodes, insert a new node with a value equal to the greatest common divisor of them.
+Return the head of the linked list after insertion.
+The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
+
 ## Spiral Matrix III (Medium)
 
 You start at the cell (rStart, cStart) of an rows x cols grid facing east. The northwest corner is at the first row and column in the grid, and the southeast corner is at the last row and column.
