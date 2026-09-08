@@ -126,6 +126,11 @@ Return any rearrangement of nums that meets the requirements.
 
 You are given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
+## Two Pointers (Medium)
+
+You are given an integer array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.
+Return the minimum number of boats to carry every given person.
+
 ## Number of Subsequences That Satisfy The Given Sum Conidition (Medium)
 
 You are given an array of integers nums and an integer target.
