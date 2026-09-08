@@ -74,6 +74,12 @@ You are given two positive integer arrays spells and potions, of length n and m 
 You are also given an integer success. A spell and potion pair is considered successful if the product of their strengths is at least success.
 Return an integer array pairs of length n where pairs[i] is the number of potions that will form a successful pair with the ith spell.
 
+## Capacity To Ship Packages Within D Days (Medium)
+
+A conveyor belt has packages that must be shipped from one port to another within days days.
+The ith package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by weights). It is not allowed to load weight more than the maximum weight capacity of the ship.
+Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within days days.
+
 ## Koko Eating Bananas (Medium)
 
 You are given an integer array piles where piles[i] is the number of bananas in the ith pile. You are also given an integer h, which represents the number of hours you have to eat all the bananas.
