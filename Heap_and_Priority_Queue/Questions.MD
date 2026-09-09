@@ -40,9 +40,14 @@ Given an unsorted array of integers nums and an integer k, return the kth larges
 By kth largest element, we mean the kth largest element in the sorted order, not the kth distinct element.
 Follow-up: Can you solve it without sorting?
 
-## Least Number of Unique Integers After K Removals
+## Least Number of Unique Integers After K Removals (Medium)
 
 Given an array of integers arr and an integer k. Find the least number of unique integers after removing exactly k elements.
+
+## Reorganize String (Meidum)
+
+You are given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+You can return any possible rearrangement of s or return "" if not posssible.
 
 ## Single Threaded CPU (Medium)
 
