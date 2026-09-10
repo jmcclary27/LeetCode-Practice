@@ -123,6 +123,10 @@ Return the sum of the two numbers as a linked list.
 
 Idea: The idea is to create a recursive helper function that not only keeps track of the current node for each list, but the carry from addition as well. This method O(m + n) for both the time and space complexity.
 
+## Reverse Linked List II (Medium)
+
+You are given the head of a singly linked list and two integers left and right where left <= right, reverse the nodes of the list from position left to position right (1-indexed), and return the reversed list. 
+
 ## Merge K Sorted Lists (Hard)
 
 You are given an array of k linked lists lists, where each list is sorted in ascending order.
