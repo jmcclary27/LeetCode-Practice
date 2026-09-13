@@ -260,6 +260,15 @@ You may return the output in any order.
 
 Idea: In this solution, we use bucket sort in kind of an untraditional way. We will create a 2D array, where the indices represent the frequency, and the elements at that index are the numbers that occur that many times. We will do this by creating a dictionary, and then looping through nums, adding the numbers and updating their frequency to the dictionary along the way. We will then loop through the dictionary, putting them into their proper bucket. In this 2D array, the elements at the end will have occurred the most times, so to get the top k elements, we loop through the 2D arrray, starting at the end, and output the last k elements. By using bucket sort instead of a more traditional way, like a min heap, we will have shaved our runtime complexity down from O(nlogn) to big O(n), and our space complexity from O(n + k) to O(n)
 
+## Range Sum Query 2D Immutable (Medium)
+
+You are given a 2D matrix matrix, handle multiple queries of the following type:
+Calculate the sum of the elements of matrix inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+Implement the NumMatrix class:
+NumMatrix(int[][] matrix) Initializes the object with the integer matrix matrix.
+int sumRegion(int row1, int col1, int row2, int col2) Returns the sum of the elements of matrix inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+You must design an algorithm where sumRegion works on O(1) time complexity.
+
 ## Encode and Decode Strings (Medium)
 
 Design an algorithm to encode a list of strings to a single string. The encoded string is then decoded back to the original list of strings.
