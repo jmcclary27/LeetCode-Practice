@@ -48,6 +48,11 @@ Given an integer array nums, return the length of the longest strictly increasin
 A subsequence is a sequence that can be derived from the given sequence by deleting some or no elements without changing the relative order of the remaining characters.
 For example, "cat" is a subsequence of "crabt".
 
+## Partition Equal Subset Sum (Medium)
+
+You are given an array of positive integers nums.
+Return true if you can partition the array into two subsets, subset1 and subset2 where sum(subset1) == sum(subset2). Otherwise, return false.
+
 ## Decode Ways (Medium)
 
 A string consisting of uppercase english characters can be encoded to a number using the following mapping:
