@@ -12,4 +12,3 @@ class Solution:
             sub_num[total] = 1 + sub_num.get(total, 0)
         
         return count
-            
