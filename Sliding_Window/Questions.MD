@@ -51,6 +51,13 @@ Idea: The idea here is to create a set for each letter in the string. We loop th
 
 You are given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
 
+## Find K Closest Elements (Medium)
+
+You are given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result should also be sorted in ascending order.
+An integer a is closer to x than an integer b if:
+|a - x| < |b - x|, or
+|a - x| == |b - x| and a < b
+
 ## Grumpy Bookstore Owner (Medium)
 
 There is a bookstore owner that has a store open for n minutes. You are given an integer array customers of length n where customers[i] is the number of the customers that enter the store at the start of the ith minute and all those customers leave after the end of that minute.
