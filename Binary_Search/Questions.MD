@@ -80,6 +80,14 @@ A conveyor belt has packages that must be shipped from one port to another withi
 The ith package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by weights). It is not allowed to load weight more than the maximum weight capacity of the ship.
 Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within days days.
 
+## Search In Rotated Sorted Array II (Medium)
+
+You are given an array of length n which was originally sorted in non-decreasing order (not necessarily with distinct values). It has now been rotated between 1 and n times. For example, the array nums = [1,2,3,4,5,6] might become:
+[3,4,5,6,1,2] if it was rotated 4 times.
+[1,2,3,4,5,6] if it was rotated 6 times.
+Given the rotated sorted array nums and an integer target, return true if target is in nums, or false if it is not present.
+You must decrease the overall operation steps as much as possible.
+
 ## Koko Eating Bananas (Medium)
 
 You are given an integer array piles where piles[i] is the number of bananas in the ith pile. You are also given an integer h, which represents the number of hours you have to eat all the bananas.
