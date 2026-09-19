@@ -141,6 +141,12 @@ Given an m x n matrix of integers matrix, return a list of all elements within t
 
 You are given a positive integer n, generate an n x n matrix filled with elements from 1 to (n^2) in spiral order.
 
+## Pow(x,n) (Medium)
+
+Pow(x, n) is a mathematical function to calculate the value of x raised to the power of n (i.e., x^n).
+Given a floating-point value x and an integer value n, implement the myPow(x, n) function, which calculates x raised to the power n.
+You may not use any built-in library functions.
+
 ## Insert Greatest Common Divisors In Linked List (Medium)
 
 You are given the head of a linked list head, in which each node contains an integer value.
