@@ -147,6 +147,11 @@ Pow(x, n) is a mathematical function to calculate the value of x raised to the p
 Given a floating-point value x and an integer value n, implement the myPow(x, n) function, which calculates x raised to the power n.
 You may not use any built-in library functions.
 
+## Largest Submatrix With Rearrangements (Medium)
+
+You are given a binary matrix matrix of size m x n, and you are allowed to rearrange the columns of the matrix in any order.
+Return the area of the largest submatrix within matrix where every element of the submatrix is 1 after reordering the columns optimally.
+
 ## Insert Greatest Common Divisors In Linked List (Medium)
 
 You are given the head of a linked list head, in which each node contains an integer value.
