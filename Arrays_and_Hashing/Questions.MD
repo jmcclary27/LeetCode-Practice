@@ -214,6 +214,14 @@ You are given an array of positive integers nums, return the maximum possible su
 A subarray is defined as a contiguous sequence of numbers in an array.
 Note: An array is said to be strictly increasing if each element is strictly greater than its previous one (if exists).
 
+## Reverse Degree Of String (Easy)
+
+Given a string s, calculate its reverse degree.
+The reverse degree is calculated as follows:
+For each character, multiply its position in the reversed alphabet ('a' = 26, 'b' = 25, ..., 'z' = 1) with its position in the string (1-indexed).
+Sum these products for all characters in the string.
+Return the reverse degree of s.
+
 ## Kth Distinct String In An Array (Easy)
 
 A distinct string is a string that is present only once in an array.
