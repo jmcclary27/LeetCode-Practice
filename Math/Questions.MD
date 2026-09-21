@@ -147,6 +147,15 @@ Pow(x, n) is a mathematical function to calculate the value of x raised to the p
 Given a floating-point value x and an integer value n, implement the myPow(x, n) function, which calculates x raised to the power n.
 You may not use any built-in library functions.
 
+## Random Flip Matrix (Medium)
+
+There is an m x n binary grid matrix with all the values set 0 initially. Design an algorithm to randomly pick an index (i, j) where matrix[i][j] == 0 and flips it to 1. All the indices (i, j) where matrix[i][j] == 0 should be equally likely to be returned.
+Optimize your algorithm to minimize the number of calls made to the built-in random function of your language and optimize the time and space complexity.
+Implement the Solution class:
+Solution(int m, int n) Initializes the object with the size of the binary matrix m and n.
+int[] flip() Returns a random index [i, j] of the matrix where matrix[i][j] == 0 and flips it to 1.
+void reset() Resets all the values of the matrix to be 0.
+
 ## Largest Submatrix With Rearrangements (Medium)
 
 You are given a binary matrix matrix of size m x n, and you are allowed to rearrange the columns of the matrix in any order.
