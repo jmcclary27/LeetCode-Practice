@@ -52,6 +52,11 @@ i + minJump <= j <= min(i + maxJump, s.length - 1), and
 s[j] == '0'.
 Return true if you can reach index s.length - 1 in s, or false otherwise.
 
+## Distant Barcodes (Medium)
+
+In a warehouse, there is a row of barcodes, where the ith barcode is barcodes[i].
+Rearrange the barcodes so that no two adjacent barcodes are equal. You may return any answer, and it is guaranteed an answer exists.
+
 ## Maximum Subarray (Medium)
 
 Given an array of integers nums, find the subarray with the largest sum and return the sum.
