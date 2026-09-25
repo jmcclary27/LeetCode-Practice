@@ -49,6 +49,12 @@ Given an array of integers arr and an integer k. Find the least number of unique
 You are given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
 You can return any possible rearrangement of s or return "" if not posssible.
 
+## Find K Pairs With Smallest Sums (Medium)
+
+You are given two integer arrays nums1 and nums2 sorted in non-decreasing order and an integer k.
+Define a pair (u, v) which consists of one element from the first array and one element from the second array.
+Return the k pairs (u1, v1), (u2, v2), ..., (uk, vk) with the smallest sums.
+
 ## Single Threaded CPU (Medium)
 
 You are given n tasks labeled from 0 to n - 1 represented by a 2D integer array tasks, where tasks[i] = [enqueueTimei, processingTimei] means that the ith task will be available to process at enqueueTime[i] and will take processingTime[i] to finish processing.
