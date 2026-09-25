@@ -233,6 +233,12 @@ A distinct string is a string that is present only once in an array.
 You are given an array of strings arr, and an integer k, return the k-th distinct string present in arr. If there are fewer than k distinct strings, return an empty string "".
 Note that the strings are considered in the order in which they appear in the array.
 
+## Smallest Index With Digit Sum Equal To Index (Easy)
+
+You are given an integer array nums.
+Return the smallest index i such that the sum of the digits of nums[i] is equal to i.
+If no such index exists, return -1.
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
