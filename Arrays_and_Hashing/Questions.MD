@@ -290,6 +290,12 @@ If you do not know the value of the key, you will replace keyi and the bracket p
 Each key will appear at most once in your knowledge. There will not be any nested brackets in s.
 Return the resulting string after evaluating all of the bracket pairs.
 
+## Reverse Substrings BEtween Each Pair of Parenthesis (Medium)
+
+You are given a string s that consists of lower case English letters and brackets.
+Reverse the strings in each pair of matching parentheses, starting from the innermost one.
+Your result should not contain any brackets.
+
 ## Range Sum Query 2D Immutable (Medium)
 
 You are given a 2D matrix matrix, handle multiple queries of the following type:
