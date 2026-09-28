@@ -45,6 +45,10 @@ Notes:
 You must use only standard operations of a queue, which means that only push to back, peek/pop from front, size and is empty operations are valid.
 Depending on your language, the queue may not be supported natively. You may simulate a queue using a list or deque (double-ended queue) as long as you use only a queue's standard operations.
 
+## Maximum Nesting Depth Of Parenthesis (Easy)
+
+Given a valid parentheses string s, return the nesting depth of s. The nesting depth is the maximum number of nested parentheses.
+
 ## Final Prices With a Discount In a Shop (Easy)
 
 You are given an integer array prices where prices[i] is the price of the ith item in a shop.
