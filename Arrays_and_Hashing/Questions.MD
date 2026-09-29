@@ -233,6 +233,10 @@ A distinct string is a string that is present only once in an array.
 You are given an array of strings arr, and an integer k, return the k-th distinct string present in arr. If there are fewer than k distinct strings, return an empty string "".
 Note that the strings are considered in the order in which they appear in the array.
 
+## Intersection Of Two Arrays II (Medium)
+
+Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
+
 ## Smallest Index With Digit Sum Equal To Index (Easy)
 
 You are given an integer array nums.
