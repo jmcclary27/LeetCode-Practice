@@ -14,6 +14,10 @@ Increase or decrease the position of the ith student by 1 (i.e., moving the ith 
 Return the minimum number of moves required to move each student to a seat such that no two students are in the same seat.
 Note that there may be multiple seats or students in the same position at the beginning.
 
+## Maximum Nesting Depth Of Parenthesis (Easy)
+
+You are given a valid parentheses string s, return the nesting depth of s. The nesting depth is the maximum number of nested parentheses.
+
 ## Buy Two Chocolates (Easy)
 
 You are given an integer array prices representing the prices of various chocolates in a store. You are also given a single integer money, which represents your initial amount of money.
