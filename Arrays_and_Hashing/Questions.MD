@@ -243,6 +243,12 @@ You are given an integer array nums.
 Return the smallest index i such that the sum of the digits of nums[i] is equal to i.
 If no such index exists, return -1.
 
+## Count Special Quadruplets (Easy)
+
+Given a 0-indexed integer array nums, return the number of distinct quadruplets (a, b, c, d) such that:
+nums[a] + nums[b] + nums[c] == nums[d], and
+a < b < c < d
+
 ## Number of Senior Citizens (Easy)
 
 You are given a 0-indexed array of strings details. Each element of details provides information about a given passenger compressed into a string of length 15. The system is such that:
