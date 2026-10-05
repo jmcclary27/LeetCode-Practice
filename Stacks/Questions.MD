@@ -103,6 +103,14 @@ Given string num representing a non-negative integer num, and an integer k, retu
 A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.
 Given an integer array nums, return the maximum width of a ramp in nums. If there is no ramp in nums, return 0.
 
+## Score of Parenthesis (Medium)
+
+Given a balanced parentheses string s, return the score of the string.
+The score of a balanced parentheses string is based on the following rule:
+"()" has score 1.
+AB has score A + B, where A and B are balanced parentheses strings.
+(A) has score 2 * A, where A is a balanced parentheses string.
+
 ## Max Frequency In Stack (Medium)
 
 Design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack.
