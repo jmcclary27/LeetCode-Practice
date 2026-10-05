@@ -243,6 +243,14 @@ You are given an integer array nums.
 Return the smallest index i such that the sum of the digits of nums[i] is equal to i.
 If no such index exists, return -1.
 
+## First Letter To Appear Twice (Easy)
+
+Given a balanced parentheses string s, return the score of the string.
+The score of a balanced parentheses string is based on the following rule:
+"()" has score 1.
+AB has score A + B, where A and B are balanced parentheses strings.
+(A) has score 2 * A, where A is a balanced parentheses string.
+
 ## Count Special Quadruplets (Easy)
 
 Given a 0-indexed integer array nums, return the number of distinct quadruplets (a, b, c, d) such that:
