@@ -51,6 +51,13 @@ There is also a gene bank bank that records all the valid gene mutations. A gene
 Given the two gene strings startGene and endGene and the gene bank bank, return the minimum number of mutations needed to mutate from startGene to endGene. If there is no such a mutation, return -1.
 Note that the starting point is assumed to be valid, so it might not be included in the bank.
 
+## Count Submatrices With Equal X and Y (Medium)
+
+Given a 2D character matrix grid, where grid[i][j] is either 'X', 'Y', or '.', return the number of submatrices that contain:
+grid[0][0]
+an equal frequency of 'X' and 'Y'.
+at least one 'X'.
+
 ## Find The Town Judge (Medium)
 
 In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
