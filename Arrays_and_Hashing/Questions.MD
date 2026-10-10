@@ -259,6 +259,14 @@ A valid parentheses string s is primitive if it is nonempty, and there does not 
 Given a valid parentheses string s, consider its primitive decomposition: s = P1 + P2 + ... + Pk, where Pi are primitive valid parentheses strings.
 Return s after removing the outermost parentheses of every primitive string in the primitive decomposition of s.
 
+## Distribute Elements Into 2 Arrays (Easy)
+
+You are given a 1-indexed array of distinct integers nums of length n.
+You need to distribute all the elements of nums between two arrays arr1 and arr2 using n operations. In the first operation, append nums[1] to arr1. In the second operation, append nums[2] to arr2. Afterwards, in the ith operation:
+If the last element of arr1 is greater than the last element of arr2, append nums[i] to arr1. Otherwise, append nums[i] to arr2.
+The array result is formed by concatenating the arrays arr1 and arr2. Concatenating two arrays appends the second to the end of the first; for example, concatenating [1,2,3] with [4,5,6] gives [1,2,3,4,5,6].
+Return the array result.
+
 ## Count Special Quadruplets (Easy)
 
 Given a 0-indexed integer array nums, return the number of distinct quadruplets (a, b, c, d) such that:
