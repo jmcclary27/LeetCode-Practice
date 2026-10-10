@@ -31,6 +31,15 @@ You have to rearrange the bits in such a way that the resulting binary number is
 Return a string representing the maximum odd binary number that can be created from the given combination.
 Note that the resulting string can have leading zeros.
 
+## Minimize Maximum Of Array (Medium)
+
+You are given a 0-indexed array nums comprising of n non-negative integers.
+In one operation, you must:
+Choose an integer i such that 1 <= i < n and nums[i] > 0.
+Decrease nums[i] by 1.
+Increase nums[i - 1] by 1.
+Return the minimum possible value of the maximum integer of nums after performing any number of operations.
+
 ## Maximum Sum Circular Subarray (Medium)
 
 You are given a circular integer array nums of length n, return the maximum possible sum of a non-empty subarray of nums.
