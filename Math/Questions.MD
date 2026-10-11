@@ -128,6 +128,12 @@ AB -> 28
 
 You are given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 
+## Sum Of Squares Of Special Elements (Easy)
+
+You are given a 1-indexed integer array nums of length n.
+An element nums[i] of nums is called special if i divides n, i.e. n % i == 0.
+Return the sum of the squares of all special elements of nums.
+
 ## Rotate Image (Medium)
 
 Given a square n x n matrix of integers matrix, rotate it by 90 degrees clockwise.
