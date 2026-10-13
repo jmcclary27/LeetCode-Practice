@@ -128,6 +128,10 @@ AB -> 28
 
 You are given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 
+## Base 7 (Easy)
+
+Given an integer num, return a string of its base 7 representation.
+
 ## Sum Of Squares Of Special Elements (Easy)
 
 You are given a 1-indexed integer array nums of length n.
