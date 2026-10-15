@@ -275,6 +275,11 @@ Let nums[i..j] be a subarray of nums consisting of all the indices from i to j s
 Return the sum of the squares of distinct counts of all subarrays of nums.
 A subarray is a contiguous non-empty sequence of elements within an array.
 
+## Average Excluding Minimum And Maximum Salary (Easy)
+
+You are given an array of unique integers salary where salary[i] is the salary of the ith employee.
+Return the average salary of employees excluding the minimum and maximum salary. Answers within 10-5 of the actual answer will be accepted.
+
 ## Count Special Quadruplets (Easy)
 
 Given a 0-indexed integer array nums, return the number of distinct quadruplets (a, b, c, d) such that:
