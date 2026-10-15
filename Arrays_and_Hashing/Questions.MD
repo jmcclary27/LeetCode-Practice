@@ -267,6 +267,14 @@ If the last element of arr1 is greater than the last element of arr2, append num
 The array result is formed by concatenating the arrays arr1 and arr2. Concatenating two arrays appends the second to the end of the first; for example, concatenating [1,2,3] with [4,5,6] gives [1,2,3,4,5,6].
 Return the array result.
 
+## Subarray Sum With Distinct Elements I (Easy)
+
+You are given a 0-indexed integer array nums.
+The distinct count of a subarray of nums is defined as:
+Let nums[i..j] be a subarray of nums consisting of all the indices from i to j such that 0 <= i <= j < nums.length. Then the number of distinct values in nums[i..j] is called the distinct count of nums[i..j].
+Return the sum of the squares of distinct counts of all subarrays of nums.
+A subarray is a contiguous non-empty sequence of elements within an array.
+
 ## Count Special Quadruplets (Easy)
 
 Given a 0-indexed integer array nums, return the number of distinct quadruplets (a, b, c, d) such that:
