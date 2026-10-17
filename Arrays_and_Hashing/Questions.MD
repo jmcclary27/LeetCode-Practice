@@ -326,6 +326,12 @@ You may return the output in any order.
 
 Idea: In this solution, we use bucket sort in kind of an untraditional way. We will create a 2D array, where the indices represent the frequency, and the elements at that index are the numbers that occur that many times. We will do this by creating a dictionary, and then looping through nums, adding the numbers and updating their frequency to the dictionary along the way. We will then loop through the dictionary, putting them into their proper bucket. In this 2D array, the elements at the end will have occurred the most times, so to get the top k elements, we loop through the 2D arrray, starting at the end, and output the last k elements. By using bucket sort instead of a more traditional way, like a min heap, we will have shaved our runtime complexity down from O(nlogn) to big O(n), and our space complexity from O(n + k) to O(n)
 
+## Words Within 2 Of A Dictionary (Medium)
+
+You are given two string arrays, queries and dictionary. All words in each array comprise of lowercase English letters and have the same length.
+In one edit you can take a word from queries, and change any letter in it to any other letter. Find all words from queries that, after a maximum of two edits, equal some word from dictionary.
+Return a list of all words from queries, that match with some word from dictionary after a maximum of two edits. Return the words in the same order they appear in queries.
+
 ## Evaluate The Pairs Of A String (Medium)
 
 You are given a string s that contains some bracket pairs, with each pair containing a non-empty key.
