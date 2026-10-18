@@ -6,6 +6,13 @@ At a lemonade stand, each lemonade costs $5. Customers are standing in a queue t
 Note that you do not have any change in hand at first.
 You are given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.
 
+## Compute Decimal Representaion (Easy)
+
+You are given a positive integer n.
+A positive integer is a base-10 component if it is the product of a single digit from 1 to 9 and a non-negative power of 10. For example, 500, 30, and 7 are base-10 components, while 537, 102, and 11 are not.
+Express n as a sum of only base-10 components, using the fewest base-10 components possible.
+Return an array containing these base-10 components in descending order.
+
 ## Minimum Number Of Moves To Seat Everyone (Easy)
 
 There are n availabe seats and n students standing in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.
