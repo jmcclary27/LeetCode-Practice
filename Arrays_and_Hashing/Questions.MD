@@ -332,6 +332,12 @@ You are given two string arrays, queries and dictionary. All words in each array
 In one edit you can take a word from queries, and change any letter in it to any other letter. Find all words from queries that, after a maximum of two edits, equal some word from dictionary.
 Return a list of all words from queries, that match with some word from dictionary after a maximum of two edits. Return the words in the same order they appear in queries.
 
+## Find Target Indices After Sorting Array (Medium)
+
+You are given a 0-indexed integer array nums and a target element target.
+A target index is an index i such that nums[i] == target.
+Return a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list. The returned list must be sorted in increasing order.
+
 ## Evaluate The Pairs Of A String (Medium)
 
 You are given a string s that contains some bracket pairs, with each pair containing a non-empty key.
