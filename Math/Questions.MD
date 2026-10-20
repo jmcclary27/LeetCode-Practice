@@ -128,6 +128,11 @@ AB -> 28
 
 You are given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
 
+## Modify The Matrix (Easy)
+
+Given a 0-indexed m x n integer matrix matrix, create a new 0-indexed matrix called answer. Make answer equal to matrix, then replace each element with the value -1 with the maximum element in its respective column.
+Return the matrix answer.
+
 ## Base 7 (Easy)
 
 Given an integer num, return a string of its base 7 representation.
