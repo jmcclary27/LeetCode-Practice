@@ -301,6 +301,13 @@ You are given a string s consisting of words and spaces, return the length of th
 A word is a maximal substring consisting of non-space characters only.
 Note: A substring is a contiguous non-empty sequence of characters within a string.
 
+## Smallest Missing Integer Greater Than Or Equal To Prefix Sum (Easy)
+
+Note: The updated title is "Smallest Missing Integer Greater Than or Equal to Sequential Prefix Sum".
+You are given a 0-indexed array of integers nums.
+A prefix nums[0..i] is sequential if, for all 1 <= j <= i, nums[j] = nums[j - 1] + 1. In particular, the prefix consisting only of nums[0] is sequential.
+Return the smallest integer x missing from nums such that x is greater than or equal to the sum of the longest sequential prefix.
+
 ## Score of A String (Easy)
 
 You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
