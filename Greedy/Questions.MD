@@ -65,6 +65,14 @@ Or, for i <= k < j:
 arr[k] > arr[k + 1] when k is even, and
 arr[k] < arr[k + 1] when k is odd.
 
+## Minimum Operations To Sort A Permutation (Medium)
+
+You are given an integer array nums of length n, where nums is a permutation of the integers from 0 to n - 1.
+You may perform only the following operations:
+Reverse the entire array.
+Rotate Left by One: Move the first element to the end of the array, and rest elements to left by one position.
+Return an integer denoting the minimum number of operations required to sort the array in increasing order. If it is not possible to sort the array using only the given operations, return -1.
+
 ## Jump Game VII (Medium)
 
 You are given a 0-indexed binary string s and two integers minJump and maxJump. In the beginning, you are standing at index 0, which is equal to '0'. You can move from index i to index j if the following conditions are fulfilled:
