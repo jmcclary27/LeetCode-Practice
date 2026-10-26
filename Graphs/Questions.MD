@@ -56,6 +56,12 @@ Note that the starting point is assumed to be valid, so it might not be included
 Given a 2D grid consists of 0s (land) and 1s (water).  An island is a maximal 4-directionally connected group of 0s and a closed island is an island totally (all left, top, right, bottom) surrounded by 1s.
 Return the number of closed islands.
 
+## Count Total Islands With Sum Divisible By K (Medium)
+
+You are given an m x n matrix grid and a positive integer k. An island is a group of positive integers (representing land) that are 4-directionally connected (horizontally or vertically).
+The total value of an island is the sum of the values of all cells in the island.
+Return the number of islands with a total value divisible by k.
+
 ## Count Submatrices With Equal X and Y (Medium)
 
 Given a 2D character matrix grid, where grid[i][j] is either 'X', 'Y', or '.', return the number of submatrices that contain:
