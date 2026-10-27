@@ -25,6 +25,20 @@ Note that there may be multiple seats or students in the same position at the be
 
 You are given a valid parentheses string s, return the nesting depth of s. The nesting depth is the maximum number of nested parentheses.
 
+## Create Grid With Exactly One Path (Easy)
+
+You are given two integers m and n, representing the number of rows and columns of a grid.
+Construct any m x n grid consisting only of the characters '.' and '#', where:
+'.' represents a free cell.
+'#' represents an obstacle cell.
+A valid path is a sequence of free cells that:
+Starts at the top-left cell (0, 0).
+Ends at the bottom-right cell (m - 1, n - 1).
+Moves only:
+Right, from (i, j) to (i, j + 1), or
+Down, from (i, j) to (i + 1, j).
+Return any grid such that there is exactly one valid path from the top-left cell to the bottom-right cell.
+
 ## Buy Two Chocolates (Easy)
 
 You are given an integer array prices representing the prices of various chocolates in a store. You are also given a single integer money, which represents your initial amount of money.
