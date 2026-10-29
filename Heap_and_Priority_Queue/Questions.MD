@@ -19,6 +19,14 @@ If x < y, the stone of weight x is destroyed, and the stone of weight y has new 
 Continue the simulation until there is no more than one stone remaining.
 Return the weight of the last remaining stone or return 0 if none remain.
 
+## Rank Transform Of An Array (Easy)
+
+Given an array of integers arr, replace each element with its rank.
+The rank represents how large the element is. The rank has the following rules:
+Rank is an integer starting from 1.
+The larger the element, the larger the rank. If two elements are equal, their rank must be the same.
+Rank should be as small as possible.
+
 ## Take Gifts From the Richest Pile (Easy)
 
 You are given an integer array gifts denoting the number of gifts in various piles. Every second, you do the following:
