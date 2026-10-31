@@ -83,6 +83,13 @@ You are given an array nums of distinct positive integers. You need to sort the 
 Return the minimum number of swaps required to rearrange nums into this sorted order.
 A swap is defined as exchanging the values at two distinct positions in the array.
 
+## Maximum Sum Of Alternating Squares (Medium)
+
+You are given an integer array nums. You may rearrange the elements in any order.
+The alternating score of an array arr is defined as:
+score = arr[0]2 - arr[1]2 + arr[2]2 - arr[3]2 + ...
+Return an integer denoting the maximum possible alternating score of nums after rearranging its elements.
+
 ## Single Threaded CPU (Medium)
 
 You are given n tasks labeled from 0 to n - 1 represented by a 2D integer array tasks, where tasks[i] = [enqueueTimei, processingTimei] means that the ith task will be available to process at enqueueTime[i] and will take processingTime[i] to finish processing.
