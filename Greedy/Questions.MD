@@ -67,6 +67,11 @@ You are given a circular integer array nums of length n, return the maximum poss
 A circular array means the end of the array connects to the beginning of the array. Formally, the next element of nums[i] is nums[(i + 1) % n] and the previous element of nums[i] is nums[(i - 1 + n) % n].
 A subarray may only include each element of the fixed buffer nums at most once. Formally, for a subarray nums[i], nums[i + 1], ..., nums[j], there does not exist i <= k1, k2 <= j with k1 % n == k2 % n.
 
+## Minimum Moves To Equal Array Elements (Medium)
+
+Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
+In one move, you can increment n - 1 elements of the array by 1.
+
 ## Longest Turbulent Subarray (Medium)
 
 You are given an integer array arr, return the length of a maximum size turbulent subarray of arr.
