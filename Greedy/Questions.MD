@@ -6,6 +6,13 @@ At a lemonade stand, each lemonade costs $5. Customers are standing in a queue t
 Note that you do not have any change in hand at first.
 You are given an integer array bills where bills[i] is the bill the ith customer pays, return true if you can provide every customer with the correct change, or false otherwise.
 
+## Find Largest Almost Missing Integer (Easy)
+
+You are given an integer array nums and an integer k.
+An integer x is almost missing from nums if x appears in exactly one subarray of size k within nums.
+Return the largest almost missing integer from nums. If no such integer exists, return -1.
+A subarray is a contiguous sequence of elements within an array.
+
 ## Compute Decimal Representaion (Easy)
 
 You are given a positive integer n.
