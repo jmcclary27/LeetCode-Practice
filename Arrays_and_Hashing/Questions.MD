@@ -315,6 +315,11 @@ You are given 4 strings arriveAlice, leaveAlice, arriveBob, and leaveBob. Alice 
 Return the total number of days that Alice and Bob are in Rome together.
 You can assume that all dates occur in the same calendar year, which is not a leap year. Note that the number of days per month can be represented as: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31].
 
+## Find The Value Of Distance Between Two Arrays  (Easy)
+
+Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays.
+The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where |arr1[i]-arr2[j]| <= d.
+
 ## Three Consecutive Odds (Easy)
 
 Given an integer array arr, return true if there are three consecutive odd numbers in the array. Otherwise, return false.
