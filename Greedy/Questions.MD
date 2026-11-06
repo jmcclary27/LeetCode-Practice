@@ -13,6 +13,10 @@ An integer x is almost missing from nums if x appears in exactly one subarray of
 Return the largest almost missing integer from nums. If no such integer exists, return -1.
 A subarray is a contiguous sequence of elements within an array.
 
+## Check If One Swap Makes Strings Equal (Easy)
+
+The strings s1 and s2 have equal length. You may swap two character positions in exactly one of the strings, at most once. The chosen positions may be the same, and you may also perform no swap. Return true if the strings can become equal, or false otherwise.
+
 ## Compute Decimal Representaion (Easy)
 
 You are given a positive integer n.
